@@ -2,7 +2,7 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -18,95 +18,65 @@ msgstr ""
 
 #. type: Plain text
 #: upstream/_posts/2018-09-14-api-management-and-service-mesh.md:6
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "layout: post\n"
 "title:  \"API Management and Service Mesh\"\n"
 "date:   2018-09-14 16:31:33 +0200\n"
 "categories: istio mesh\n"
-msgstr ""
-"layout: post title.\"API管理とサービスメッシュ\" date: 2018-09-14 16:31:33 +0200 "
-"categories: istio mesh"
+msgstr "layout: post title.\"API管理とサービスメッシュ\" date: 2018-09-14 16:31:33 +0200 categories: istio mesh"
 
 #. type: Plain text
 #: upstream/_posts/2018-09-14-api-management-and-service-mesh.md:9
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Why a Service Mesh is not a replacement of API Management\n"
-"As a disclaimer, I work at Red Hat, more specifically, at the 3scale Team "
-"(acquired 2 years ago) developing the 3scale API Management Solution.\n"
-msgstr ""
-"なぜ Service Mesh が API Management の代わりにならないのか 免責事項として、私は Red Hat "
-"で働いており、より具体的には 3scale Team (2 年前に買収) で 3scale API Management "
-"ソリューションを開発しています。"
+"As a disclaimer, I work at Red Hat, more specifically, at the 3scale Team (acquired 2 years ago) developing the 3scale API Management Solution.\n"
+msgstr "なぜ Service Mesh が API Management の代わりにならないのか 免責事項として、私は Red Hat で働いており、より具体的には 3scale Team (2 年前に買収) で 3scale API Management ソリューションを開発しています。"
 
 #. type: Plain text
 #: upstream/_posts/2018-09-14-api-management-and-service-mesh.md:11
-#, no-wrap, fuzzy
-msgid ""
-"Lately, a question is popping up more and more when talking with our "
-"customers: “Why do I need API Management if I use Istio?”\n"
+#, fuzzy, no-wrap
+msgid "Lately, a question is popping up more and more when talking with our customers: “Why do I need API Management if I use Istio?”\n"
 msgstr "最近、お客様と話をしていると、ある質問が飛び出すことが増えてきました。\"Istioを使っているのに、なぜAPI管理が必要なのか？"
 
 #. type: Plain text
 #: upstream/_posts/2018-09-14-api-management-and-service-mesh.md:13
-#, no-wrap, fuzzy
-msgid ""
-"To answer this question, first, we need to understand what is what, but if "
-"you want a spoiler: 3scale API Management and Istio are amazing together.\n"
-msgstr ""
-"この質問に答えるためには、まず何が何なのかを理解する必要がありますが、ネタバレをしたい場合は3scale API "
-"ManagementとIstioは一緒にすごいです。"
+#, fuzzy, no-wrap
+msgid "To answer this question, first, we need to understand what is what, but if you want a spoiler: 3scale API Management and Istio are amazing together.\n"
+msgstr "この質問に答えるためには、まず何が何なのかを理解する必要がありますが、ネタバレをしたい場合は3scale API ManagementとIstioは一緒にすごいです。"
 
 #. type: Plain text
 #: upstream/_posts/2018-09-14-api-management-and-service-mesh.md:15
-#, no-wrap, fuzzy
-msgid ""
-"I will try to describe what problems those two solutions aim to solve, "
-"focusing on 3scale API Management and Istio Service Mesh (those are the two "
-"I know better).\n"
-msgstr ""
-"この2つのソリューションがどのような問題を解決しようとしているのか、3scale API ManagementとIstio Service "
-"Mesh（私がよく知っているのはこの2つです）に焦点を当てて説明してみたいと思います。"
+#, fuzzy, no-wrap
+msgid "I will try to describe what problems those two solutions aim to solve, focusing on 3scale API Management and Istio Service Mesh (those are the two I know better).\n"
+msgstr "この2つのソリューションがどのような問題を解決しようとしているのか、3scale API ManagementとIstio Service Mesh（私がよく知っているのはこの2つです）に焦点を当てて説明してみたいと思います。"
 
 #. type: Title ##
 #: upstream/_posts/2018-09-14-api-management-and-service-mesh.md:16
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid "What is an API Management solution?"
 msgstr "API管理ソリューションとは？"
 
 #. type: Plain text
 #: upstream/_posts/2018-09-14-api-management-and-service-mesh.md:20
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "If we take a look at Wikipedia:\n"
-"> “API management is the process of creating and publishing web APIs, "
-"enforcing their usage policies, controlling access, nurturing the subscriber "
-"community, collecting and analyzing usage statistics, and reporting on "
-"performance.”\n"
-msgstr ""
-"ウィキペディアを見てみると: > \"API管理とは、Web "
-"APIの作成と公開、その利用ポリシーの実施、アクセスの制御、加入者コミュニティの育成、利用統計の収集と分析、パフォーマンスの報告のプロセスである\""
+"> “API management is the process of creating and publishing web APIs, enforcing their usage policies, controlling access, nurturing the subscriber community, collecting and analyzing usage statistics, and reporting on performance.”\n"
+msgstr "ウィキペディアを見てみると: > \"API管理とは、Web APIの作成と公開、その利用ポリシーの実施、アクセスの制御、加入者コミュニティの育成、利用統計の収集と分析、パフォーマンスの報告のプロセスである\""
 
 #. type: Plain text
 #: upstream/_posts/2018-09-14-api-management-and-service-mesh.md:23
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid ""
-"This is a good definition. As a company that has created some kind of "
-"internal service, I now want to build a business around it by providing an "
-"API to external subscribers. Of course, I want to monetize it by offering "
-"several subscription plans with different usage limits, scopes, and be able "
-"to invoice my customers automatically.\n"
-"Additionally, external Developers should find my API easily, and sign up for "
-"a plan in a self-service way with just their credit card and all of this "
-"should be transparent for my API code…\n"
-msgstr ""
-"これは良い定義だと思います。ある種の社内サービスを作った会社として、今度は外部のサブスクライバーにAPIを提供することで、それを中心としたビジネスを構築したいと考えています。もちろん、異なる利用制限やスコープを持つ複数のサブスクリプションプランを提供し、顧客に自動的に請求書を発行できるようにすることで、収益化を図りたいと考えています。さらに、外部の開発者は私のAPIを簡単に見つけて、クレジットカードだけでセルフサービスの方法でプランにサインアップし、これらのすべてが私のAPIコードのために透明でなければなりません."
-".."
+"This is a good definition. As a company that has created some kind of internal service, I now want to build a business around it by providing an API to external subscribers. Of course, I want to monetize it by offering several subscription plans with different usage limits, scopes, and be able to invoice my customers automatically.\n"
+"Additionally, external Developers should find my API easily, and sign up for a plan in a self-service way with just their credit card and all of this should be transparent for my API code…\n"
+msgstr "これは良い定義だと思います。ある種の社内サービスを作った会社として、今度は外部のサブスクライバーにAPIを提供することで、それを中心としたビジネスを構築したいと考えています。もちろん、異なる利用制限やスコープを持つ複数のサブスクリプションプランを提供し、顧客に自動的に請求書を発行できるようにすることで、収益化を図りたいと考えています。さらに、外部の開発者は私のAPIを簡単に見つけて、クレジットカードだけでセルフサービスの方法でプランにサインアップし、これらのすべてが私のAPIコードのために透明でなければなりません..."
 
 #. type: Plain text
 #: upstream/_posts/2018-09-14-api-management-and-service-mesh.md:31
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "{% highlight ruby %}\n"
 "def print_hi(name)\n"
@@ -115,31 +85,19 @@ msgid ""
 "print_hi('Tom')\n"
 "#=> prints 'Hi, Tom' to STDOUT.\n"
 "{% endhighlight %}\n"
-msgstr ""
-"{% highlight ruby %} def print_hi(name) puts \"Hi, #{name}\" end "
-"print_hi('Tom') #⇒STDOUTに'Hi, Tom'を出力する。{% endhighlight %} を表示します。"
+msgstr "{% highlight ruby %} def print_hi(name) puts \"Hi, #{name}\" end print_hi('Tom') #⇒STDOUTに'Hi, Tom'を出力する。{% endhighlight %} を表示します。"
 
 #. type: Plain text
 #: upstream/_posts/2018-09-14-api-management-and-service-mesh.md:33
-#, no-wrap, fuzzy
-msgid ""
-"Check out the [Jekyll docs][jekyll-docs] for more info on how to get the "
-"most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub "
-"repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll "
-"Talk][jekyll-talk].\n"
-msgstr ""
-"Jekyllを最大限に活用する方法については、[Jekyll docs][jekyll-docs]をチェックしてください。バグや機能要求はすべて "
-"[Jekyll's GitHub repo][jekyll-gh] にファイルしてください。質問があれば、[Jekyll Talk][jekyll-"
-"talk]で質問することができます。"
+#, fuzzy, no-wrap
+msgid "Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].\n"
+msgstr "Jekyllを最大限に活用する方法については、[Jekyll docs][jekyll-docs]をチェックしてください。バグや機能要求はすべて [Jekyll's GitHub repo][jekyll-gh] にファイルしてください。質問があれば、[Jekyll Talk][jekyll-talk]で質問することができます。"
 
 #. type: Plain text
 #: upstream/_posts/2018-09-14-api-management-and-service-mesh.md:36
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "[jekyll-docs]: https://jekyllrb.com/docs/home\n"
 "[jekyll-gh]:   https://github.com/jekyll/jekyll\n"
 "[jekyll-talk]: https://talk.jekyllrb.com/\n"
-msgstr ""
-"[jekyll-docs]: https: https://jekyllrb.com/docs/home [jekyll-gh https://"
-"github.com/jekyll/jekyll [jekyll-talk https://talk.jekyllrb.com/ [jekyll-"
-"talk https://talk.jekyllrb.com/"
+msgstr "[jekyll-docs]: https: https://jekyllrb.com/docs/home [jekyll-gh https://github.com/jekyll/jekyll [jekyll-talk https://talk.jekyllrb.com/ [jekyll-talk https://talk.jekyllrb.com/"

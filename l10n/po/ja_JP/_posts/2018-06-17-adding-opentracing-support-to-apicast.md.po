@@ -2,7 +2,7 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
@@ -32,91 +32,50 @@ msgstr ""
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:10
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid "Going from this:\n"
 msgstr "ここから先は"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:11
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid ""
-"[17/May/2018:14:19:02 +0000] someclient.production.gw.apicast.io:8080 10.1."
-"13.3:36054 \"GET /?user_key=XXXXXXXXXXXXXXXXXX HTTP/1.1\" 200 747 (0.100) 0."
-"1\n"
-"[17/May/2018:14:19:12 +0000] someclient.production.gw.apicast.io:8080 10.1.5."
-"3:33492 \"GET /?user_key=XXXXXXXXXXXXXXXXXX HTTP/1.1\" 200 746 (0.000) 0\n"
-"[17/May/2018:14:19:27 +0000] someclient.production.gw.apicast.io:8080 10.1."
-"13.3:36874 \"GET /?user_key=XXXXXXXXXXXXXXXXXX HTTP/1.1\" 200 747 (0.100) 0."
-"1\n"
-"[17/May/2018:14:19:37 +0000] someclient.production.gw.apicast.io:8080 10.1.5."
-"3:34364 \"GET /?user_key=XXXXXXXXXXXXXXXXXX HTTP/1.1\" 200 746 (0.000) 0\n"
-"[17/May/2018:14:20:17 +0000] someclient.production.gw.apicast.io:8080 10.1."
-"13.3:38518 \"GET /?user_key=XXXXXXXXXXXXXXXXXX HTTP/1.1\" 200 747 (0.100) 0\n"
-"[17/May/2018:14:20:32 +0000] someclient.production.gw.apicast.io:8080 10.1.5."
-"3:36206 \"GET /?user_key=XXXXXXXXXXXXXXXXXX HTTP/1.1\" 200 746 (0.000) 0\n"
-"[17/May/2018:14:20:37 +0000] someclient.production.gw.apicast.io:8080 10.1."
-"13.3:39170 \"GET /?user_key=XXXXXXXXXXXXXXXXXX HTTP/1.1\" 200 747 (0.100) 0."
-"1\n"
-"[17/May/2018:14:20:47 +0000] someclient.production.gw.apicast.io:8080 10.1.5."
-"3:36686 \"GET /?user_key=XXXXXXXXXXXXXXXXXX HTTP/1.1\" 200 746 (0.100) 0.1\n"
-"[17/May/2018:14:21:02 +0000] someclient.production.gw.apicast.io:8080 10.1.5."
-"3:37192 \"GET /?user_key=XXXXXXXXXXXXXXXXXX HTTP/1.1\" 200 746 (0.100) 0.1\n"
-"[17/May/2018:14:21:22 +0000] someclient.production.gw.apicast.io:8080 10.1.5."
-"3:37826 \"GET /?user_key=XXXXXXXXXXXXXXXXXX HTTP/1.1\" 200 746 (0.100) 0.1\n"
+"[17/May/2018:14:19:02 +0000] someclient.production.gw.apicast.io:8080 10.1.13.3:36054 \"GET /?user_key=XXXXXXXXXXXXXXXXXX HTTP/1.1\" 200 747 (0.100) 0.1\n"
+"[17/May/2018:14:19:12 +0000] someclient.production.gw.apicast.io:8080 10.1.5.3:33492 \"GET /?user_key=XXXXXXXXXXXXXXXXXX HTTP/1.1\" 200 746 (0.000) 0\n"
+"[17/May/2018:14:19:27 +0000] someclient.production.gw.apicast.io:8080 10.1.13.3:36874 \"GET /?user_key=XXXXXXXXXXXXXXXXXX HTTP/1.1\" 200 747 (0.100) 0.1\n"
+"[17/May/2018:14:19:37 +0000] someclient.production.gw.apicast.io:8080 10.1.5.3:34364 \"GET /?user_key=XXXXXXXXXXXXXXXXXX HTTP/1.1\" 200 746 (0.000) 0\n"
+"[17/May/2018:14:20:17 +0000] someclient.production.gw.apicast.io:8080 10.1.13.3:38518 \"GET /?user_key=XXXXXXXXXXXXXXXXXX HTTP/1.1\" 200 747 (0.100) 0\n"
+"[17/May/2018:14:20:32 +0000] someclient.production.gw.apicast.io:8080 10.1.5.3:36206 \"GET /?user_key=XXXXXXXXXXXXXXXXXX HTTP/1.1\" 200 746 (0.000) 0\n"
+"[17/May/2018:14:20:37 +0000] someclient.production.gw.apicast.io:8080 10.1.13.3:39170 \"GET /?user_key=XXXXXXXXXXXXXXXXXX HTTP/1.1\" 200 747 (0.100) 0.1\n"
+"[17/May/2018:14:20:47 +0000] someclient.production.gw.apicast.io:8080 10.1.5.3:36686 \"GET /?user_key=XXXXXXXXXXXXXXXXXX HTTP/1.1\" 200 746 (0.100) 0.1\n"
+"[17/May/2018:14:21:02 +0000] someclient.production.gw.apicast.io:8080 10.1.5.3:37192 \"GET /?user_key=XXXXXXXXXXXXXXXXXX HTTP/1.1\" 200 746 (0.100) 0.1\n"
+"[17/May/2018:14:21:22 +0000] someclient.production.gw.apicast.io:8080 10.1.5.3:37826 \"GET /?user_key=XXXXXXXXXXXXXXXXXX HTTP/1.1\" 200 746 (0.100) 0.1\n"
 "\n"
-msgstr ""
-"[17/May/2018:14:19:02 +0000] someclient.production.gw.apicast.io:8080 10.1."
-"13.3:36054 \"GET /?user_key=XXXXXXXXXXXXXX HTTP/1.1\" 200 747 (0.100) 0.1 "
-"[17/May/2018:14:19:12 +0000] someclient.production.gw.apicast.io:8080 10.1.5."
-"3:33492 \"GET /?production.gw.apicast.io:8080 10.1.5.3:33492 \"GET /"
-"?user_key=XXXXXXXXXXXX HTTP/1.1\" 200 746 (0.000) 0 [17/May/2018:14:19:27 "
-"+0000] someclient.production.gw.apicast.io:8080 10．1.13.3:36874 \"GET /"
-"?user_key=XXXXXXXXXXXXXX HTTP/1.1\" 200 747 (0.100) 0.1 [17/May/2018:14:19:"
-"37 +0000] someclient.production.gw.apicast.io:8080 10.1.5.3:34364 \"GET /"
-"?user_key=XXXXXXXXXXXXXXXX HTTP/1.1\" 200 746 (0.000) 0 [17/May/2018:14:20:"
-"17 +0000] someclient.production.gw.apicast.io:8080 10.1.13.3:38518 \"GET /"
-"?user_key=XXXXXXXXXXXXXX HTTP/1.1\" 200 747 (0．100) 0 [17/May/2018:14:20:32 "
-"+0000] someclient.production.gw.apicast.io:8080 10.1.5.3:36206 \"GET /"
-"?user_key=XXXXXXXXXXXXXX HTTP/1.1\" 200 746 (0.000) 0 [17/May/2018:14:20:37 "
-"+0000] someclient.production.gw.apicast.io:8080 10.1.5.3:36206 \"GET /"
-"?production.gw.apicast.io:8080 10.1.13.3:39170 \"GET /?user_key="
-"XXXXXXXXXXXXXX HTTP/1.1\" 200 747 (0.100) 0.1 [17/May/2018:14:20:47 +0000] "
-"someclient.production.gw.apicast.io:8080 10．1.5.5.3:36686 \"GET /?user_key="
-"XXXXXXXXXXXXXX HTTP/1.1\" 200 746 (0.100) 0.1 [17/May/2018:14:21:02 +0000] "
-"someclient.production.gw.apicast.io:8080 10.1.5.3:37192 \"GET /?user_key="
-"XXXXXXXXXXXXXX HTTP/1.1.1\" 200 746 (0.100) 0.1 [17/May/2018:14:21:22 +0000] "
-"someclient.production.gw.apicast.io:8080 10.1.5.3:37826 \"GET /?user_key="
-"XXXXXXXXXXXXXXXX HTTP/1.1\" 200 746 (0.100) 0.1"
+msgstr "[17/May/2018:14:19:02 +0000] someclient.production.gw.apicast.io:8080 10.1.13.3:36054 \"GET /?user_key=XXXXXXXXXXXXXX HTTP/1.1\" 200 747 (0.100) 0.1 [17/May/2018:14:19:12 +0000] someclient.production.gw.apicast.io:8080 10.1.5.3:33492 \"GET /?production.gw.apicast.io:8080 10.1.5.3:33492 \"GET /?user_key=XXXXXXXXXXXX HTTP/1.1\" 200 746 (0.000) 0 [17/May/2018:14:19:27 +0000] someclient.production.gw.apicast.io:8080 10．1.13.3:36874 \"GET /?user_key=XXXXXXXXXXXXXX HTTP/1.1\" 200 747 (0.100) 0.1 [17/May/2018:14:19:37 +0000] someclient.production.gw.apicast.io:8080 10.1.5.3:34364 \"GET /?user_key=XXXXXXXXXXXXXXXX HTTP/1.1\" 200 746 (0.000) 0 [17/May/2018:14:20:17 +0000] someclient.production.gw.apicast.io:8080 10.1.13.3:38518 \"GET /?user_key=XXXXXXXXXXXXXX HTTP/1.1\" 200 747 (0．100) 0 [17/May/2018:14:20:32 +0000] someclient.production.gw.apicast.io:8080 10.1.5.3:36206 \"GET /?user_key=XXXXXXXXXXXXXX HTTP/1.1\" 200 746 (0.000) 0 [17/May/2018:14:20:37 +0000] someclient.production.gw.apicast.io:8080 10.1.5.3:36206 \"GET /?production.gw.apicast.io:8080 10.1.13.3:39170 \"GET /?user_key=XXXXXXXXXXXXXX HTTP/1.1\" 200 747 (0.100) 0.1 [17/May/2018:14:20:47 +0000] someclient.production.gw.apicast.io:8080 10．1.5.5.3:36686 \"GET /?user_key=XXXXXXXXXXXXXX HTTP/1.1\" 200 746 (0.100) 0.1 [17/May/2018:14:21:02 +0000] someclient.production.gw.apicast.io:8080 10.1.5.3:37192 \"GET /?user_key=XXXXXXXXXXXXXX HTTP/1.1.1\" 200 746 (0.100) 0.1 [17/May/2018:14:21:22 +0000] someclient.production.gw.apicast.io:8080 10.1.5.3:37826 \"GET /?user_key=XXXXXXXXXXXXXXXX HTTP/1.1\" 200 746 (0.100) 0.1"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:26
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid "To:\n"
 msgstr "に。"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:28
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid "![jaegerUI](https://pbs.twimg.com/media/DZTOdAGW4AErUPT.jpg)\n"
 msgstr "![jaegerUI https://pbs.twimg.com/media/DZTOdAGW4AErUPT.jpg )"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:30
-#, no-wrap, fuzzy
-msgid ""
-"Let's start by explaining what APIcast, OpenTracing and Jaeger are, and how "
-"we improved Observability of our user systems by embracing them.\n"
-msgstr ""
-"まずはAPIcast、OpenTracing、Jaegerとは何か、そしてそれらを取り入れることでどのようにユーザーシステムのObservabilityを向上させたのかを説明します。"
+#, fuzzy, no-wrap
+msgid "Let's start by explaining what APIcast, OpenTracing and Jaeger are, and how we improved Observability of our user systems by embracing them.\n"
+msgstr "まずはAPIcast、OpenTracing、Jaegerとは何か、そしてそれらを取り入れることでどのようにユーザーシステムのObservabilityを向上させたのかを説明します。"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:32
-#, no-wrap, fuzzy
-msgid ""
-"TL;DR: If you know what APIcast, Jaeger & OpenTracing are, you should jump "
-"to the last section :)\n"
-msgstr ""
-"TL;DR: APIcast, Jaeger & OpenTracing が何か知っている人は、最後のセクションにジャンプしてください :)"
+#, fuzzy, no-wrap
+msgid "TL;DR: If you know what APIcast, Jaeger & OpenTracing are, you should jump to the last section :)\n"
+msgstr "TL;DR: APIcast, Jaeger & OpenTracing が何か知っている人は、最後のセクションにジャンプしてください :)"
 
 #. type: Title ###
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:33
@@ -126,55 +85,33 @@ msgstr "APIcast"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:35
-#, no-wrap, fuzzy
-msgid ""
-"APIcast (<https://github.com/3scale/apicast>) is an Opensource API Gateway "
-"with it's main focus on high performance and extensibility, is part of the "
-"Redhat 3scale API Management solution, and is used by hundreds of companies "
-"around the world to expose their APIs in a secure and controlled way.\n"
-msgstr ""
-"APIcast (< https://github.com/3scale/apicast> "
-"、高性能と拡張性に主眼を置いたオープンソースのAPIゲートウェイで、Redhat 3scale API "
-"Managementソリューションの一部であり、世界中の何百もの企業がAPIを安全かつ管理された方法で公開するために使用しています。"
+#, fuzzy, no-wrap
+msgid "APIcast (<https://github.com/3scale/apicast>) is an Opensource API Gateway with it's main focus on high performance and extensibility, is part of the Redhat 3scale API Management solution, and is used by hundreds of companies around the world to expose their APIs in a secure and controlled way.\n"
+msgstr "APIcast (< https://github.com/3scale/apicast> 、高性能と拡張性に主眼を置いたオープンソースのAPIゲートウェイで、Redhat 3scale API Managementソリューションの一部であり、世界中の何百もの企業がAPIを安全かつ管理された方法で公開するために使用しています。"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:37
-#, no-wrap, fuzzy
-msgid ""
-"It's based on Openresty, which is a full-fledged web platform that "
-"integrates the standard Nginx core, LuaJIT and Lua Libraries with 3rd-party "
-"Nginx modules. So we have the performance and robustness of nginx with an "
-"easy way to extend/change it's functionallity by using LUA.\n"
-msgstr ""
-"Openrestyをベースにしていて、標準のNginxコア、LuaJIT、LuaライブラリとサードパーティのNginxモジュールを統合した本格的なWebプラットフォームです。Nginxの性能と堅牢性に加えて、Luaを利用して簡単に機能を拡張・変更することができます。"
+#, fuzzy, no-wrap
+msgid "It's based on Openresty, which is a full-fledged web platform that integrates the standard Nginx core, LuaJIT and Lua Libraries with 3rd-party Nginx modules. So we have the performance and robustness of nginx with an easy way to extend/change it's functionallity by using LUA.\n"
+msgstr "Openrestyをベースにしていて、標準のNginxコア、LuaJIT、LuaライブラリとサードパーティのNginxモジュールを統合した本格的なWebプラットフォームです。Nginxの性能と堅牢性に加えて、Luaを利用して簡単に機能を拡張・変更することができます。"
 
 #. type: Title ###
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:38
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid "Improving Observability"
 msgstr "観察性の向上"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:41
-#, no-wrap, fuzzy
-msgid ""
-"APIcast is being deployed in multiple scenarios, but more and more, our "
-"users are deploying APIcast as the API Gateway of big and complex "
-"microservices deployments.\n"
-msgstr ""
-"APIcastは様々なシナリオでデプロイされていますが、当社のユーザーは、大規模で複雑なマイクロサービスデプロイメントのAPIゲートウェイとしてAPIcastをデプロイするケースが増えてきています。"
+#, fuzzy, no-wrap
+msgid "APIcast is being deployed in multiple scenarios, but more and more, our users are deploying APIcast as the API Gateway of big and complex microservices deployments.\n"
+msgstr "APIcastは様々なシナリオでデプロイされていますが、当社のユーザーは、大規模で複雑なマイクロサービスデプロイメントのAPIゲートウェイとしてAPIcastをデプロイするケースが増えてきています。"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:43
-#, no-wrap, fuzzy
-msgid ""
-"As you can imagine, we are talking about hundreds of microservices, "
-"interacting with each other, and each external requests ends up creating "
-"several requests between services. This raises new challenges, and one of "
-"them is: \"Observability\"\n"
-msgstr ""
-"ご想像の通り、私たちは何百ものマイクロサービスを話していて、お互いに相互作用していて、それぞれの外部リクエストはサービス間でいくつかのリクエストを作成することになります。これは新たな課題を提起し、そのうちの一つが "
-"\"observability\" です。"
+#, fuzzy, no-wrap
+msgid "As you can imagine, we are talking about hundreds of microservices, interacting with each other, and each external requests ends up creating several requests between services. This raises new challenges, and one of them is: \"Observability\"\n"
+msgstr "ご想像の通り、私たちは何百ものマイクロサービスを話していて、お互いに相互作用していて、それぞれの外部リクエストはサービス間でいくつかのリクエストを作成することになります。これは新たな課題を提起し、そのうちの一つが \"observability\" です。"
 
 #. type: Bullet: '* '
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:50
@@ -214,29 +151,20 @@ msgstr "…"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:52
-#, no-wrap, fuzzy
-msgid ""
-"Right now, answering those questions is slow and complex, as the users start "
-"debuging via logs and trying to correlate everything, so we need to we need "
-"to start looking at how microservices are monitored, and distributed tracing "
-"shows up as the pattern that help us to get insight on what is going on "
-"inside the system.\n"
+#, fuzzy, no-wrap
+msgid "Right now, answering those questions is slow and complex, as the users start debuging via logs and trying to correlate everything, so we need to we need to start looking at how microservices are monitored, and distributed tracing shows up as the pattern that help us to get insight on what is going on inside the system.\n"
 msgstr "今のところ、これらの質問に答えるのは時間がかかり複雑です。ユーザーはログを介してデバッグを開始し、すべてを関連付けようとしています。"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:54
-#, no-wrap, fuzzy
-msgid ""
-"What is required to add distributed tracing to our microservice "
-"deployment?\n"
+#, fuzzy, no-wrap
+msgid "What is required to add distributed tracing to our microservice deployment?\n"
 msgstr "マイクロサービスのデプロイメントに分散トレースを追加するには何が必要ですか？"
 
 #. type: Bullet: '* '
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:60
 #, fuzzy
-msgid ""
-"Each external requests should have a unique request ID attached, usually via "
-"a HTTP header"
+msgid "Each external requests should have a unique request ID attached, usually via a HTTP header"
 msgstr "それぞれの外部リクエストは、通常は HTTP ヘッダを介して、一意のリクエスト ID を添付しなければなりません。"
 
 #. type: Bullet: '* '
@@ -254,76 +182,55 @@ msgstr "各サービスは、ログに requets ID を出力する必要があり
 #. type: Bullet: '* '
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:60
 #, fuzzy
-msgid ""
-"Each service should record additional information, like start and end time "
-"of the request."
+msgid "Each service should record additional information, like start and end time of the request."
 msgstr "各サービスは、リクエストの開始時刻や終了時刻などの追加情報を記録する必要があります。"
 
 #. type: Bullet: '* '
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:60
 #, fuzzy
-msgid ""
-"Logs will need to be aggregated somewhere, and provide a way to parse via "
-"HTTP request ID."
+msgid "Logs will need to be aggregated somewhere, and provide a way to parse via HTTP request ID."
 msgstr "ログはどこかで集約する必要があり、HTTPリクエストIDを介して解析する方法を提供します。"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:62
-#, no-wrap, fuzzy
-msgid ""
-"For APIcast, that is simple, attach a unique ID as a HTTP Header and we are "
-"done...\n"
+#, fuzzy, no-wrap
+msgid "For APIcast, that is simple, attach a unique ID as a HTTP Header and we are done...\n"
 msgstr "APIcastの場合、それは簡単で、HTTPヘッダにユニークなIDを添付すれば完了です。"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:64
-#, no-wrap, fuzzy
-msgid ""
-"But the user will need to define a log format across all the services, what "
-"parameters to be stored in the log, the http header to use, how to capture "
-"the start/end time of each requests...correlate them, check how to do that "
-"in third party applications, try to modify those...\n"
-msgstr ""
-"しかし、ユーザーはすべてのサービスのログフォーマットを定義する必要があります。ログに保存されるパラメータ、使用するhttpヘッダ、各リクエストの開始/"
-"終了時刻をどのようにキャプチャするか...それらを相関させ、サードパーティのアプリケーションでどのようにするかを確認し、それらを修正してみてください..."
-""
+#, fuzzy, no-wrap
+msgid "But the user will need to define a log format across all the services, what parameters to be stored in the log, the http header to use, how to capture the start/end time of each requests...correlate them, check how to do that in third party applications, try to modify those...\n"
+msgstr "しかし、ユーザーはすべてのサービスのログフォーマットを定義する必要があります。ログに保存されるパラメータ、使用するhttpヘッダ、各リクエストの開始/終了時刻をどのようにキャプチャするか...それらを相関させ、サードパーティのアプリケーションでどのようにするかを確認し、それらを修正してみてください..."
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:67
-#, no-wrap, fuzzy
-msgid ""
-"So we ask ourselves, *Shouldn't exists a \"standard\" way of doing this?*\n"
+#, fuzzy, no-wrap
+msgid "So we ask ourselves, *Shouldn't exists a \"standard\" way of doing this?*\n"
 msgstr "だから我々は自分自身に尋ねる、 *これを行うための\"標準的な\"方法が存在するべきではありませんか？*"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:69
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid "And that's where OpenTracing comes into scene.\n"
 msgstr "そこでOpenTracingの登場です。"
 
 #. type: Title ###
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:70
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid "OpenTracing"
 msgstr "オープントレーシング"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:73
-#, no-wrap, fuzzy
-msgid ""
-"OpenTracing (<http://opentracing.io>) offers consistent, vendor-neutral "
-"APIs, Opensource libraries and documentation for developers to instrument "
-"and add different tracing implementations into their applications.\n"
-msgstr ""
-"OpenTracing (< http://opentracing.io> "
-"一貫性のある、ベンダーニュートラルなAPI、オープンソースのライブラリ、ドキュメントを提供し、開発者がアプリケーションに異なるトレース実装をインスツルメンテーションしたり、追加したりできるようにしています。"
+#, fuzzy, no-wrap
+msgid "OpenTracing (<http://opentracing.io>) offers consistent, vendor-neutral APIs, Opensource libraries and documentation for developers to instrument and add different tracing implementations into their applications.\n"
+msgstr "OpenTracing (< http://opentracing.io> 一貫性のある、ベンダーニュートラルなAPI、オープンソースのライブラリ、ドキュメントを提供し、開発者がアプリケーションに異なるトレース実装をインスツルメンテーションしたり、追加したりできるようにしています。"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:75
-#, no-wrap, fuzzy
-msgid ""
-"Currently the OpenTracing project provides libraries for the following "
-"languages:\n"
+#, fuzzy, no-wrap
+msgid "Currently the OpenTracing project provides libraries for the following languages:\n"
 msgstr "現在、OpenTracingプロジェクトは以下の言語のライブラリを提供しています。"
 
 #. type: Bullet: '* '
@@ -382,21 +289,14 @@ msgstr "ピーエッチピーエス"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:87
-#, no-wrap, fuzzy
-msgid ""
-"And there's a huge community pushing new contributions, check: <https://"
-"github.com/opentracing-contrib>.\n"
-msgstr ""
-"そして、新しい投稿を後押しする巨大なコミュニティがあります。 https://github.com/opentracing-contrib "
-"をチェックしてください。"
+#, fuzzy, no-wrap
+msgid "And there's a huge community pushing new contributions, check: <https://github.com/opentracing-contrib>.\n"
+msgstr "そして、新しい投稿を後押しする巨大なコミュニティがあります。 https://github.com/opentracing-contrib をチェックしてください。"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:89
-#, no-wrap, fuzzy
-msgid ""
-"Once you have instrumented your application by adding the OpenTracing "
-"libraries, you will need to choose the tracing implementation, those are the "
-"supported one:\n"
+#, fuzzy, no-wrap
+msgid "Once you have instrumented your application by adding the OpenTracing libraries, you will need to choose the tracing implementation, those are the supported one:\n"
 msgstr "OpenTracingライブラリを追加してアプリケーションをインストルメントしたら、トレースの実装を選択する必要があります。"
 
 #. type: Bullet: '* '
@@ -455,44 +355,31 @@ msgstr "データドッグ"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:101
-#, no-wrap, fuzzy
-msgid ""
-"We decided to go with Jaeger, as it is part of the CNF, has Openshift ready "
-"deployments <https://github.com/jaegertracing/jaeger-openshift>, and Red Hat "
-"is contributing to it.\n"
-msgstr ""
-"CNFの一部であり、Openshiftのデプロイメントが可能であり、 https://github.com/jaegertracing/jaeger-"
-"openshift 、Red Hatが貢献しているので、Jaegerを採用することにしました。"
+#, fuzzy, no-wrap
+msgid "We decided to go with Jaeger, as it is part of the CNF, has Openshift ready deployments <https://github.com/jaegertracing/jaeger-openshift>, and Red Hat is contributing to it.\n"
+msgstr "CNFの一部であり、Openshiftのデプロイメントが可能であり、 https://github.com/jaegertracing/jaeger-openshift 、Red Hatが貢献しているので、Jaegerを採用することにしました。"
 
 #. type: Title ###
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:103
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid "Tracer: Jaeger"
 msgstr "トレーサーイェーガー"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:106
-#, no-wrap, fuzzy
-msgid ""
-"Jaeger is a distributed tracing system developed by Uber Technologies, "
-"inspired by Dapper and Openzipkin. It supports multiple storage backends, is "
-"OpenTracing native and includes a modern web UI and it's designed for "
-"performance.\n"
-msgstr ""
-"Jaegerは、DapperとOpenzipkinに触発されてUber "
-"Technologiesが開発した分散トレースシステムです。複数のストレージバックエンドをサポートし、OpenTracingネイティブで、モダンなWeb "
-"UIを含み、パフォーマンスを重視して設計されています。"
+#, fuzzy, no-wrap
+msgid "Jaeger is a distributed tracing system developed by Uber Technologies, inspired by Dapper and Openzipkin. It supports multiple storage backends, is OpenTracing native and includes a modern web UI and it's designed for performance.\n"
+msgstr "Jaegerは、DapperとOpenzipkinに触発されてUber Technologiesが開発した分散トレースシステムです。複数のストレージバックエンドをサポートし、OpenTracingネイティブで、モダンなWeb UIを含み、パフォーマンスを重視して設計されています。"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:108
-#, no-wrap, fuzzy
-msgid ""
-"![Architecture Diagram](https://www.jaegertracing.io/img/architecture.png)\n"
+#, fuzzy, no-wrap
+msgid "![Architecture Diagram](https://www.jaegertracing.io/img/architecture.png)\n"
 msgstr "![建築図 https://www.jaegertracing.io/img/architecture.png )"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:110
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid "As you can see in the diagram, the main components are:\n"
 msgstr "図を見てもわかるように、主な構成要素は以下の通りです。"
 
@@ -505,16 +392,13 @@ msgstr "Jaeger-clientです。スパンを作成する jaeger ライブラリ。
 #. type: Bullet: '* '
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:116
 #, fuzzy
-msgid ""
-"Jaeger-agent: Reports traces from the jaeger-client to jaeger-collector."
+msgid "Jaeger-agent: Reports traces from the jaeger-client to jaeger-collector."
 msgstr "Jaeger-agent。jaeger-client から jaeger-collector へのトレースを報告します。"
 
 #. type: Bullet: '* '
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:116
 #, fuzzy
-msgid ""
-"Jaeger-collector: Centralizes traces from jaeger-agents and saves them into "
-"a storage backend."
+msgid "Jaeger-collector: Centralizes traces from jaeger-agents and saves them into a storage backend."
 msgstr "Jaeger-collector。jaeger-agent からのトレースを一元化し、ストレージバックエンドに保存します。"
 
 #. type: Bullet: '* '
@@ -531,13 +415,9 @@ msgstr "Jaeger-uiです。Jaeger UIは、トレースを取得するためにjae
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:118
-#, no-wrap, fuzzy
-msgid ""
-"Jaeger supports `Adaptative sampling`, which means that we can tune how many "
-"traces are sampled by choosing the proper `sampler`:\n"
-msgstr ""
-"Jaegerは `Adaptative sampling` をサポートしています , つまり、我々は適切な `sampler` "
-"を選択することによって、どのように多くのトレースがサンプリングされるかを調整することができることを意味します ."
+#, fuzzy, no-wrap
+msgid "Jaeger supports `Adaptative sampling`, which means that we can tune how many traces are sampled by choosing the proper `sampler`:\n"
+msgstr "Jaegerは `Adaptative sampling` をサポートしています , つまり、我々は適切な `sampler` を選択することによって、どのように多くのトレースがサンプリングされるかを調整することができることを意味します ."
 
 #. type: Bullet: '* '
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:123
@@ -554,106 +434,67 @@ msgstr "確率的: 0% から 100% に調節することができます"
 #. type: Bullet: '* '
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:123
 #, fuzzy
-msgid ""
-"Rate Limiting: How many traces per second, for ex: 2.0 (only 2 traces per "
-"second.)"
+msgid "Rate Limiting: How many traces per second, for ex: 2.0 (only 2 traces per second.)"
 msgstr "レート制限。1 秒あたりのトレース数（例：2.0（1 秒あたり 2 つのトレースのみ。"
 
 #. type: Bullet: '* '
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:123
 #, fuzzy
-msgid ""
-"Remote: Checks with the jaeger agent which sampler to use for this service."
+msgid "Remote: Checks with the jaeger agent which sampler to use for this service."
 msgstr "リモートです。このサービスに使用するサンプラーをjaegerエージェントに確認します。"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:125
-#, no-wrap, fuzzy
-msgid ""
-"If you want to know more about Jaeger, visit: <https://www.jaegertracing."
-"io>\n"
+#, fuzzy, no-wrap
+msgid "If you want to know more about Jaeger, visit: <https://www.jaegertracing.io>\n"
 msgstr "イェーガーについて詳しく知りたい方は、 https://www.jaegertracing.io をご覧ください。"
 
 #. type: Title ###
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:126
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid "Enabling OpenTracing with Jaeger in APIcast"
 msgstr "APIcastでJaegerでOpenTracingを有効にする"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:129
-#, no-wrap, fuzzy
-msgid ""
-"We packaged all the OpenTracing libraries, and the Jaeger Tracer library in "
-"the base container image of APIcast, [s2i-openresty](https://github.com/"
-"3scale/s2i-openresty) this image is [\"source-to-image\"](https://github.com/"
-"openshift/source-to-image) enabled, so you can use it as the base of your "
-"own projects.\n"
-msgstr ""
-"すべてのOpenTracingライブラリとJaeger TracerライブラリをAPIcastのベースコンテナイメージ[s2i-openresty "
-"https://github.com/openshift/source-to-image )にパッケージ化しました。"
+#, fuzzy, no-wrap
+msgid "We packaged all the OpenTracing libraries, and the Jaeger Tracer library in the base container image of APIcast, [s2i-openresty](https://github.com/3scale/s2i-openresty) this image is [\"source-to-image\"](https://github.com/openshift/source-to-image) enabled, so you can use it as the base of your own projects.\n"
+msgstr "すべてのOpenTracingライブラリとJaeger TracerライブラリをAPIcastのベースコンテナイメージ[s2i-openresty https://github.com/openshift/source-to-image )にパッケージ化しました。"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:131
-#, no-wrap, fuzzy
-msgid ""
-"We will use [OpenShift](https://www.openshift.com), and the container image "
-"of APIcast (<https://quay.io/repository/3scale/apicast>), so we assume you "
-"have APIcast deployed on top of Openshift and your 3scale account created, "
-"if that's not the case, there's an amazing guide to get you up & running in "
-"no time here: [Using 3scale API Gateway on Red Hat OpenShift](https://github."
-"com/3scale/apicast/blob/master/doc/openshift-guide.md)\n"
-msgstr ""
-"OpenShift https://www.openshift.com )とAPIcastのコンテナイメージ(< https://quay.io/"
-"repository/3scale/apicast> "
-"を使用しますので、Openshift上にAPIcastをデプロイして3scaleアカウントを作成したと仮定しています。Using 3scale API "
-"Gateway on Red Hat OpenShift https://github.com/3scale/apicast/blob/master/"
-"doc/openshift-guide.md )"
+#, fuzzy, no-wrap
+msgid "We will use [OpenShift](https://www.openshift.com), and the container image of APIcast (<https://quay.io/repository/3scale/apicast>), so we assume you have APIcast deployed on top of Openshift and your 3scale account created, if that's not the case, there's an amazing guide to get you up & running in no time here: [Using 3scale API Gateway on Red Hat OpenShift](https://github.com/3scale/apicast/blob/master/doc/openshift-guide.md)\n"
+msgstr "OpenShift https://www.openshift.com )とAPIcastのコンテナイメージ(< https://quay.io/repository/3scale/apicast> を使用しますので、Openshift上にAPIcastをデプロイして3scaleアカウントを作成したと仮定しています。Using 3scale API Gateway on Red Hat OpenShift https://github.com/3scale/apicast/blob/master/doc/openshift-guide.md )"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:133
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid "APIcast OpenTracing support is enabled/disabled using ENV vars:\n"
 msgstr "APIcastのOpenTracingサポートは、ENV変数を使用して有効/無効を設定します。"
 
 #. type: Bullet: '* '
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:135
 #, fuzzy
-msgid ""
-"OPENTRACING_TRACER: Which Tracer implementation to use, right now, only "
-"`Jaeger` is available."
+msgid "OPENTRACING_TRACER: Which Tracer implementation to use, right now, only `Jaeger` is available."
 msgstr "OPENTRACING_TRACER: どのトレーサーの実装を使用するか、今のところ `Jaeger` のみです。"
 
 #. type: Bullet: '* '
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:137
 #, fuzzy
-msgid ""
-"OPENTRACING_CONFIG: Each tracer has a default configuration file, you can "
-"see an example here: [jaeger.example.json](https://github.com/3scale/apicast/"
-"blob/master/gateway/conf.d/opentracing/jaeger.example.json)"
-msgstr ""
-"OPENTRACING_CONFIG: 各トレーサはデフォルトの設定ファイルを持っています。[jaeger.example.json https://"
-"github.com/3scale/apicast/blob/master/gateway/conf.d/opentracing/jaeger."
-"example.json )"
+msgid "OPENTRACING_CONFIG: Each tracer has a default configuration file, you can see an example here: [jaeger.example.json](https://github.com/3scale/apicast/blob/master/gateway/conf.d/opentracing/jaeger.example.json)"
+msgstr "OPENTRACING_CONFIG: 各トレーサはデフォルトの設定ファイルを持っています。[jaeger.example.json https://github.com/3scale/apicast/blob/master/gateway/conf.d/opentracing/jaeger.example.json )"
 
 #. type: Bullet: '* '
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:139
 #, fuzzy
-msgid ""
-"OPENTRACING_HEADER_FORWARD: By default, uses `uber-trace-id`, if your "
-"OpenTracing has a different configuration, you will need to change this "
-"value, if not, ignore it."
-msgstr ""
-"OPENTRACING_HEADER_FORWARD: デフォルトでは、 `uber-trace-id` "
-"を使用します。もしあなたのOpenTracingが異なる設定を持っている場合、この値を変更する必要があります。"
+msgid "OPENTRACING_HEADER_FORWARD: By default, uses `uber-trace-id`, if your OpenTracing has a different configuration, you will need to change this value, if not, ignore it."
+msgstr "OPENTRACING_HEADER_FORWARD: デフォルトでは、 `uber-trace-id` を使用します。もしあなたのOpenTracingが異なる設定を持っている場合、この値を変更する必要があります。"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:141
-#, no-wrap, fuzzy
-msgid ""
-"In the first place let's deploy the Jager All-In-One template, this is not "
-"really meant for production environments, but for demo purposes it will be "
-"enough.\n"
+#, fuzzy, no-wrap
+msgid "In the first place let's deploy the Jager All-In-One template, this is not really meant for production environments, but for demo purposes it will be enough.\n"
 msgstr "最初に、Jager All-In-One テンプレートを展開してみましょう。これは本番環境用ではありませんが、デモ目的では十分です。"
 
 #. type: Bullet: '* '
@@ -664,24 +505,15 @@ msgstr "現在のネームスペースにJaeger all-in-oneをインストール�
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:145
-#, no-wrap, fuzzy
-msgid ""
-"oc process -f https://raw.githubusercontent.com/jaegertracing/jaeger-"
-"openshift/master/all-in-one/jaeger-all-in-one-template.yml | oc create -f -"
-"\n"
-msgstr ""
-"oc process -f https://raw.githubusercontent.com/jaegertracing/jaeger-"
-"openshift/master/all-in-one/jaeger-all-in-one-template.yml | oc create -f -f"
+#, fuzzy, no-wrap
+msgid "oc process -f https://raw.githubusercontent.com/jaegertracing/jaeger-openshift/master/all-in-one/jaeger-all-in-one-template.yml | oc create -f -\n"
+msgstr "oc process -f https://raw.githubusercontent.com/jaegertracing/jaeger-openshift/master/all-in-one/jaeger-all-in-one-template.yml | oc create -f -f"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:150
-#, no-wrap, fuzzy
-msgid ""
-"For more info related to deploying jaeger in a production environment: "
-"<https://github.com/jaegertracing/jaeger-openshift#production-setup>\n"
-msgstr ""
-"実運用環境でのjaegerの配備に関する詳細情報はこちらをご覧ください: https://github.com/jaegertracing/jaeger-"
-"openshift#production-setup"
+#, fuzzy, no-wrap
+msgid "For more info related to deploying jaeger in a production environment: <https://github.com/jaegertracing/jaeger-openshift#production-setup>\n"
+msgstr "実運用環境でのjaegerの配備に関する詳細情報はこちらをご覧ください: https://github.com/jaegertracing/jaeger-openshift#production-setup"
 
 #. type: Bullet: '* '
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:152
@@ -691,40 +523,32 @@ msgstr "Jaeger-UIにアクセスします。"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:153
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "> oc get route\n"
 "\n"
-"NAME           HOST/PORT                                 PATH      SERVICES  "
-"     PORT         TERMINATION   WILDCARD\n"
-"apicast        apicast.127.0.0.1.nip.io                            apicast   "
-"     proxy        edge          None\n"
-"jaeger-query   jaeger-query-myproject.127.0.0.1.nip.io             jaeger-"
-"query   query-http   edge/Allow    None\n"
+"NAME           HOST/PORT                                 PATH      SERVICES       PORT         TERMINATION   WILDCARD\n"
+"apicast        apicast.127.0.0.1.nip.io                            apicast        proxy        edge          None\n"
+"jaeger-query   jaeger-query-myproject.127.0.0.1.nip.io             jaeger-query   query-http   edge/Allow    None\n"
 msgstr "オーケー取得ルート"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:162
-#, no-wrap, fuzzy
-msgid ""
-"In my case, the url is https://jaeger-query-myproject.127.0.0.1.nip.io\n"
+#, fuzzy, no-wrap
+msgid "In my case, the url is https://jaeger-query-myproject.127.0.0.1.nip.io\n"
 msgstr "私の場合、URLは https://jaeger-query-myproject.127.0.0.1.nip.io"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:164
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid "You should be greeted by this menacing looking gopher:\n"
 msgstr "あなたはこの威嚇するようなゴファーが出迎えてくれるはずです。"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:166
-#, no-wrap, fuzzy
-msgid ""
-"![jaeger-ui](https://cdn-images-1.medium.com/max/800/"
-"1*ydyHdo_UrXILlcs49FamQg.png)\n"
-msgstr ""
-"![jaeger-ui https://cdn-images-1.medium.com/max/800/1*ydyHdo_UrXILlcs49FamQg."
-"png )"
+#, fuzzy, no-wrap
+msgid "![jaeger-ui](https://cdn-images-1.medium.com/max/800/1*ydyHdo_UrXILlcs49FamQg.png)\n"
+msgstr "![jaeger-ui https://cdn-images-1.medium.com/max/800/1*ydyHdo_UrXILlcs49FamQg.png )"
 
 #. type: Bullet: '* '
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:168
@@ -737,13 +561,13 @@ msgstr "では、独自のJaeger設定ファイルを作成してみましょう
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:204
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:215
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:230
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid "json"
 msgstr "ジェイソン"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:169
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "cat <<EOF >jaeger_config.json\n"
 " {\n"
@@ -772,20 +596,11 @@ msgid ""
 "    }\n"
 " }\n"
 "EOF\n"
-msgstr ""
-"cat <<EOF >jaeger_config.json { \"service_name\".\"apicast\", \"disabled\": "
-"false, \"sampler\".{ \"type\".\"const\", \"param\".1 }, \"reporter\".{ "
-"\"queueSize\": 100, \"bufferFlushInterval100, \"bufferFlushInterval\"10, "
-"\"logSpans\": false, \"localAgentHostPort\".\"jaeger-agent:6831\" }, "
-"\"headers\".{ \"jaegerDebugHeader\".\"debug-id\", \"jaegerBaggageHeader\"."
-"\"baggage\", \"TraceContextHeaderName\".\"uber-trace-id\", "
-"\"traceBaggageHeaderPrefix\".\"testctx-\" }, \"baggage_restrictions\".{ "
-"\"denyBaggageOnInitializationFailure\": false, \"hostPort\".\"127.0.0.1:"
-"5778\", \"refreshInterval\":60 }}イーオーエフ"
+msgstr "cat <<EOF >jaeger_config.json { \"service_name\".\"apicast\", \"disabled\": false, \"sampler\".{ \"type\".\"const\", \"param\".1 }, \"reporter\".{ \"queueSize\": 100, \"bufferFlushInterval100, \"bufferFlushInterval\"10, \"logSpans\": false, \"localAgentHostPort\".\"jaeger-agent:6831\" }, \"headers\".{ \"jaegerDebugHeader\".\"debug-id\", \"jaegerBaggageHeader\".\"baggage\", \"TraceContextHeaderName\".\"uber-trace-id\", \"traceBaggageHeaderPrefix\".\"testctx-\" }, \"baggage_restrictions\".{ \"denyBaggageOnInitializationFailure\": false, \"hostPort\".\"127.0.0.1:5778\", \"refreshInterval\":60 }}イーオーエフ"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:199
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid "This creates a new file: `jaeger_config.json`\n"
 msgstr "これにより、新しいファイルが作成されます。 `jaeger_config.json`"
 
@@ -797,14 +612,15 @@ msgstr "重要な部分をおさらいしておきましょう。"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:203
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid "Sampler configuration:\n"
 msgstr "サンプラーの構成。"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:204
-#, no-wrap, fuzzy
-msgid "\"sampler\": {\n"
+#, fuzzy, no-wrap
+msgid ""
+"\"sampler\": {\n"
 "  \"type\": \"const\",\n"
 "  \"param\": 1\n"
 "}\n"
@@ -812,21 +628,19 @@ msgstr "\"sampler\".{ \"type\".\"const\", \"param\"1 }"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:212
-#, no-wrap, fuzzy
-msgid ""
-"This defines the sampler as [const]ant, with a param of \"1\", the means, it "
-"will sample all the requests.\n"
+#, fuzzy, no-wrap
+msgid "This defines the sampler as [const]ant, with a param of \"1\", the means, it will sample all the requests.\n"
 msgstr "これはサンプラーを[const]antと定義し、パラメタに\"1\"を指定することで、すべてのリクエストをサンプリングすることを意味します。"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:214
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid "Reporter:\n"
 msgstr "レポーターです。"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:215
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "\"reporter\": {\n"
 "  \"queueSize\": 100,\n"
@@ -834,41 +648,29 @@ msgid ""
 "  \"logSpans\": false,\n"
 "  \"localAgentHostPort\": \"jaeger-agent:6831\"\n"
 "}\n"
-msgstr ""
-"\"reporter\".{ \"queueSize\"。100, \"bufferFlushInterval\".10, \"logSpans\": "
-"false, \"localAgentHostPort\".\"jaeger-agent:6831\" } }"
+msgstr "\"reporter\".{ \"queueSize\"。100, \"bufferFlushInterval\".10, \"logSpans\": false, \"localAgentHostPort\".\"jaeger-agent:6831\" } }"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:225
-#, no-wrap, fuzzy
-msgid ""
-"Max queue of 100 requests and flush interval of 10s, we are not outputting "
-"the spans to the log, and the agent host is expected to be running at "
-"\"jaeger-agent:6831\".\n"
-msgstr ""
-"最大キュー数は100リクエスト、フラッシュ間隔は10s、ログにスパンを出力していないので、エージェントホストは\"jaeger-agent:"
-"6831\"で動作していると思われます。"
+#, fuzzy, no-wrap
+msgid "Max queue of 100 requests and flush interval of 10s, we are not outputting the spans to the log, and the agent host is expected to be running at \"jaeger-agent:6831\".\n"
+msgstr "最大キュー数は100リクエスト、フラッシュ間隔は10s、ログにスパンを出力していないので、エージェントホストは\"jaeger-agent:6831\"で動作していると思われます。"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:227
-#, no-wrap, fuzzy
-msgid ""
-"!! You will need to tune those values if your service is doing more than 100 "
-"requests in less than 10s, either increase the `queueSize`, or decrease the "
-"`bufferFlushInterval`.\n"
-msgstr ""
-"!!もしあなたのサービスが10秒未満で100以上のリクエストを行っている場合は、 `queueSize` を増やすか、 "
-"`bufferFlushInterval` を減らすか、これらの値を調整する必要があります。"
+#, fuzzy, no-wrap
+msgid "!! You will need to tune those values if your service is doing more than 100 requests in less than 10s, either increase the `queueSize`, or decrease the `bufferFlushInterval`.\n"
+msgstr "!!もしあなたのサービスが10秒未満で100以上のリクエストを行っている場合は、 `queueSize` を増やすか、 `bufferFlushInterval` を減らすか、これらの値を調整する必要があります。"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:229
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid "Headers:\n"
 msgstr "ヘッダーです。"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:230
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "\"headers\": {\n"
 "  \"jaegerDebugHeader\": \"debug-id\",\n"
@@ -876,34 +678,23 @@ msgid ""
 "  \"TraceContextHeaderName\": \"uber-trace-id\",\n"
 "  \"traceBaggageHeaderPrefix\": \"testctx-\"\n"
 "}\n"
-msgstr ""
-"\"ヘッダ\": { \"jaegerDebugHeader{ \"jaegerDebugHeader\".\"debug-id\", "
-"\"jaegerBaggageHeader\".\"baggage\", \"TraceContextHeaderName\".\"uber-trace-"
-"id\", \"traceBaggageHeaderPrefix\".\"testctx-\" }"
+msgstr "\"ヘッダ\": { \"jaegerDebugHeader{ \"jaegerDebugHeader\".\"debug-id\", \"jaegerBaggageHeader\".\"baggage\", \"TraceContextHeaderName\".\"uber-trace-id\", \"traceBaggageHeaderPrefix\".\"testctx-\" }"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:240
-#, no-wrap, fuzzy
-msgid ""
-"The most important one for now, is the `TraceContextHeaderName`, we are "
-"going to use the default value of `uber-trace-id`. This is the HTTP header "
-"we need to forward in all our services to propagate the span information and "
-"be able to correlate them.\n"
-msgstr ""
-"今のところ最も重要なのは `TraceContextHeaderName` で、デフォルト値の `uber-trace-id` "
-"を使用します。これは、スパン情報を伝播し、それらを関連付けることができるようにするために、すべてのサービスで転送する必要がある HTTP ヘッダです。"
+#, fuzzy, no-wrap
+msgid "The most important one for now, is the `TraceContextHeaderName`, we are going to use the default value of `uber-trace-id`. This is the HTTP header we need to forward in all our services to propagate the span information and be able to correlate them.\n"
+msgstr "今のところ最も重要なのは `TraceContextHeaderName` で、デフォルト値の `uber-trace-id` を使用します。これは、スパン情報を伝播し、それらを関連付けることができるようにするために、すべてのサービスで転送する必要がある HTTP ヘッダです。"
 
 #. type: Bullet: '* '
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:242
 #, fuzzy
-msgid ""
-"Let's create a ConfigMap from our jaeger configuration so we can mount it "
-"inside APIcast:"
+msgid "Let's create a ConfigMap from our jaeger configuration so we can mount it inside APIcast:"
 msgstr "APIcastの中にマウントできるように、jaegerの設定からConfigMapを作成してみましょう。"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:243
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid "oc create configmap jaeger-config --from-file=jaeger.json\n"
 msgstr "oc create configmap jaeger-config --from-file=jaeger.json"
 
@@ -915,21 +706,15 @@ msgstr "ConfigMapをAPIcastにマウントします。"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:249
-#, no-wrap, fuzzy
-msgid ""
-"oc volume dc/apicast --add -m /tmp/jaeger/ --configmap-name jaeger-config\n"
-msgstr ""
-"oc ボリューム dc/apicast --add -m /tmp/jaeger/ --configmap-name jaeger-config"
+#, fuzzy, no-wrap
+msgid "oc volume dc/apicast --add -m /tmp/jaeger/ --configmap-name jaeger-config\n"
+msgstr "oc ボリューム dc/apicast --add -m /tmp/jaeger/ --configmap-name jaeger-config"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:254
-#, no-wrap, fuzzy
-msgid ""
-"This will trigger a redeployment of APIcast, now all the PODs will have our "
-"new configuration, available at `/tmp/jaeger/jaeger_config.json`.\n"
-msgstr ""
-"これにより、APIcastの再展開が開始され、すべてのPODに新しい設定が適用されます。 `/tmp/jaeger/jaeger_config."
-"json` ."
+#, fuzzy, no-wrap
+msgid "This will trigger a redeployment of APIcast, now all the PODs will have our new configuration, available at `/tmp/jaeger/jaeger_config.json`.\n"
+msgstr "これにより、APIcastの再展開が開始され、すべてのPODに新しい設定が適用されます。 `/tmp/jaeger/jaeger_config.json` ."
 
 #. type: Bullet: '* '
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:256
@@ -939,65 +724,48 @@ msgstr "カスタム設定でOpenTracingとJaegerを有効にしてみましょ�
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:257
-#, no-wrap, fuzzy
-msgid ""
-"oc env deploymentConfig/apicast OPENTRACING_TRACER=jaeger OPENTRACING_CONFIG="
-"/tmp/jaeger/jaeger_config.json\n"
-msgstr ""
-"oc env deploymentConfig/apicast OPENTRACING_TRACER=jaeger OPENTRACING_CONFIG="
-"/tmp/jaeger/jaeger_config.json"
+#, fuzzy, no-wrap
+msgid "oc env deploymentConfig/apicast OPENTRACING_TRACER=jaeger OPENTRACING_CONFIG=/tmp/jaeger/jaeger_config.json\n"
+msgstr "oc env deploymentConfig/apicast OPENTRACING_TRACER=jaeger OPENTRACING_CONFIG=/tmp/jaeger/jaeger_config.json"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:262
-#, no-wrap, fuzzy
-msgid ""
-"This will trigger the redeployment of APIcast, and we should go to our "
-"jaeger-UI to see if it's populating with APIcast data.\n"
+#, fuzzy, no-wrap
+msgid "This will trigger the redeployment of APIcast, and we should go to our jaeger-UI to see if it's populating with APIcast data.\n"
 msgstr "これがAPIcastの再展開のトリガーとなり、APIcastのデータが表示されているかどうかをjaeger-UIで確認する必要があります。"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:265
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid "![jaeger-ui-apicast](jaeger-apicast.png)\n"
 msgstr "![jaeger-ui-apicast](jaeger-apicast.png)"
 
 #. type: Title ###
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:269
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid "Current limitations"
 msgstr "現在の制限"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:272
-#, no-wrap, fuzzy
-msgid ""
-"As you know, Openresty is Nginx + luaJIT, and right now, we only get "
-"OpenTracing information for the \"Nginx\" part of it, there aren't any "
-"OpenTracing libraries for lua.\n"
-msgstr ""
-"ご存知の通り、OpenrestyはNginx + "
-"luaJITで、今のところ「Nginx」の部分のOpenTracingの情報しか得られず、luaのOpenTracingライブラリはありません。"
+#, fuzzy, no-wrap
+msgid "As you know, Openresty is Nginx + luaJIT, and right now, we only get OpenTracing information for the \"Nginx\" part of it, there aren't any OpenTracing libraries for lua.\n"
+msgstr "ご存知の通り、OpenrestyはNginx + luaJITで、今のところ「Nginx」の部分のOpenTracingの情報しか得られず、luaのOpenTracingライブラリはありません。"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:274
-#, no-wrap, fuzzy
-msgid ""
-"We are working on being able to use the OpenTracing C++ libraries from LUA, "
-"so we can create spans directly from it, and gain even more visibility into "
-"APIcast internals. For example, this could help debug if that custom policy "
-"you just installed is making things slowers.\n"
-msgstr ""
-"我々はLUAからOpenTracing "
-"C++ライブラリを使用できるように取り組んでおり、そこから直接スパンを作成することができ、APIcast内部の可視性をさらに高めることができます。例えば、インストールしたばかりのカスタムポリシーが物事を遅くしているかどうかをデバッグするのに役立ちます。"
+#, fuzzy, no-wrap
+msgid "We are working on being able to use the OpenTracing C++ libraries from LUA, so we can create spans directly from it, and gain even more visibility into APIcast internals. For example, this could help debug if that custom policy you just installed is making things slowers.\n"
+msgstr "我々はLUAからOpenTracing C++ライブラリを使用できるように取り組んでおり、そこから直接スパンを作成することができ、APIcast内部の可視性をさらに高めることができます。例えば、インストールしたばかりのカスタムポリシーが物事を遅くしているかどうかをデバッグするのに役立ちます。"
 
 #. type: Title ###
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:276
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid "We are Hiring!"
 msgstr "採用しています!"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:278
-#, no-wrap, fuzzy
+#, fuzzy, no-wrap
 msgid "If you are interested in this kind of projects, we are hiring! :)\n"
 msgstr "このような企画に興味のある方、募集しています!:)"
