@@ -1,11 +1,11 @@
-# quarkus.io 翻訳プロジェクト 翻訳ガイド
+# 3scale.github.io 翻訳プロジェクト 翻訳ガイド
 
-quarkus.io 翻訳プロジェクトでは、[quarkus.io](https://quarkus.io) の翻訳に取り組んでいます。
+3scale.github.io 翻訳プロジェクトでは、[3scale.github.io](https://3scale.github.io) の翻訳に取り組んでいます。
 
 ## 翻訳方式
 
-[quarkus.io](https://quarkus.io)はJekyllを用いた静的サイトであり、そのコンテンツはコンテンツは asciidoctor (.adoc) で記述されています。
-レポジトリは [quarkusio/quarkusio.github.io](https://github.com/quarkusio/quarkusio.github.io ) に存在し、CC BY 3.0 に基づき公開されています。
+[3scale.github.io](https://3scale.github.io)はJekyllを用いた静的サイトであり、そのコンテンツはコンテンツは asciidoctor (.adoc) で記述されています。
+レポジトリは [3scale/3scale.github.io](https://github.com/3scale/3scale.github.io ) に存在し、CC BY 3.0 に基づき公開されています。
 本プロジェクトでは、.adocファイルからpo4aというユーティリティを用いてテキストを抽出し、翻訳して.adocファイルに書き戻してビルドすることで日本語版サイトを構築する方式を採っています。
 po4aを用いたテキストの抽出、翻訳メモリを用いた訳文の適用、機械翻訳による下訳、書き戻し処理のワークフローは、本レポジトリのGitHub Actionsによって自動化されており、
 抽出されたテキストは翻訳テキストを管理するファイル形式である、.poファイルとして、[l10nディレクトリ](l10n) 以下に保存されています。
@@ -27,7 +27,7 @@ Windows/Mac/Linux での実行に対応しており、ショートカットキ�
 
 ### 翻訳対象の自動取込、自動下訳
 
-翻訳対象のファイルは、[quarkus.io](https://quarkus.io)が更新されますと定期的に本レポジトリにGitHub Actionsのワークフローにより、
+翻訳対象のファイルは、[3scale.github.io](https://3scale.github.io)が更新されますと定期的に本レポジトリにGitHub Actionsのワークフローにより、
 自動で取り込まれ、.poファイルが作成されます。.poファイルには翻訳メモリに収録された既存の訳文や、
 [quarkus-adoc-po-translator](https://github.com/doc-l10n-kit/quarkus-adoc-po-translator) を用いて
 DeepL APIで自動で翻訳した訳文が挿入されますので、翻訳の際の下訳としてご活用下さい。
@@ -54,7 +54,7 @@ GitHubのPull-Requestに対するコメントとして5分程度で送信され�
 
 ### HTMLテンプレートの更新対応・翻訳
 
-quarkus.ioのコンテンツは asciidoctor (.adoc) で記述されていますが、一部のテキストはJekyllのHTMLテンプレートに含まれています。
+3scale.github.ioのコンテンツは asciidoctor (.adoc) で記述されていますが、一部のテキストはJekyllのHTMLテンプレートに含まれています。
 JekyllのHTMLテンプレートに記述されたテキストについては、po4aでプログラム処理するのが不可能な為、[l10n/overrideディレクトリ](l10n/override) に
 po4aで処理できないファイルのコピーを配置し、こちらのファイルを手動で翻訳しておき、Jekyllサイトビルド時にこれらのファイルで
 元ファイルを上書きすることでローカライゼーションを実現しています。
