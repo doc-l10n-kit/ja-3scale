@@ -10,6 +10,6 @@ source config/l10n-kit.conf
 cd $I18N_HOME/upstream
 
 git fetch
-git reset --hard origin/develop
+git reset --hard origin/master
 
 cd $I18N_HOME
