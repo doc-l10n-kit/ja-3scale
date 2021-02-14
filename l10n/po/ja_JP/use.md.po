@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-02-14 16:10+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: upstream/use.md:7
+#, no-wrap
+msgid ""
+"layout: page\n"
+"title: Use\n"
+"permalink: /use\n"
+"order: 1\n"
+"heading: <span id=\"nav_use\" class=\"active\">Use</span> now,<br /><span id=\"nav_install\">Install</span> later\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/use.md:19
+#, no-wrap
+msgid ""
+"<article class=\"chapter\">\n"
+"  <section id=\"use\" class=\"summary\">\n"
+"  <h1>Use Now</h1>\n"
+"  <ul>\n"
+"    <li><a href=\"https://www.3scale.net/signup/\">Sign up</a> for a free trial of our hosted version.</li>\n"
+"    <li>Free trial plan.</li>\n"
+"    <li>Get a <em>feel for the product.</em></li>\n"
+"  </ul>\n"
+"  </section>\n"
+"</article>\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/use.md:35
+#, no-wrap
+msgid ""
+"<article class=\"chapter paragraphed\">\n"
+"  <section id=\"install\" class=\"summary\">\n"
+"    <h1>Install the full Monty on your laptop</h1>\n"
+"    <em>Pre-requisite: <a href=\"https://docs.okd.io/latest/minishift/getting-started/installing.html\">Minishift</a>.</em><br/>\n"
+"    <br/>\n"
+"    <ul>\n"
+"      <li><code class=\"highlight\"><span class=\"c\"># 1. Start Minishift with 6gb</span><br/>\n"
+"  <span class=\"gp\">minishift start --memory 6GB --cpus 2</span></code></li>\n"
+"      <li><code class=\"highlight\"><span class=\"c\"># 2. Create a new application using a minimal 3scale template</span><br/><span class=\"gp\">oc new-app \\\n"
+"   --param WILDCARD_DOMAIN=\"$(minishift ip).nip.io\" \\\n"
+"   --param AMP_RELEASE=2.4.0 \\\n"
+"   -f https://red.ht/2HdoRPB</span></code></li>\n"
+"   <li><code class=\"highlight\"><span class=\"c\"># 3. Sign in to 3scale with Username:admin\n"
+"and get password from the terminal output (look for ADMIN_PASSWORD).</span><br/><span class=\"gp\">https://3scale-admin.$(minishift ip).nip.io/</span></code></li>\n"
+"    </ul>\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/use.md:37
+#, no-wrap
+msgid ""
+"    <em>More details in <a href=\"https://gist.github.com/gsaslis/015e3aa6ff283b3c4caedd9bc64f0c39\">this gist</a>.</em>\n"
+"  </section>  \n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/use.md:47
+#, no-wrap
+msgid ""
+"  <section id=\"install\" class=\"summary\">\n"
+"    <h1>Install individual components for evaluation or development purposes</h1>\n"
+"    <ul>\n"
+"      <li><a href=\"https://github.com/3scale/porta/blob/master/INSTALL.md\">Install & run</a> Porta</li>    \n"
+"      <li><a href=\"https://github.com/3scale/apicast/blob/master/README.md\">Install & run</a> APIcast</li>\n"
+"      <li><a href=\"https://github.com/3scale/apisonator#how-to-run\">Install & run</a> Apisonator</li>\n"
+"    </ul>\n"
+"  </section>\n"
+"</article>\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/use.md:51
+#, no-wrap
+msgid "<script src=\"{{ \"/assets/use.js\" | relative_url }}\"></script>\n"
+msgstr ""

@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-02-14 16:10+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#: upstream/CONTRIBUTING.md:1
+#, no-wrap
+msgid "How to Contribute"
+msgstr ""
+
+#. type: Plain text
+#: upstream/CONTRIBUTING.md:4
+#, no-wrap
+msgid "First of all, please keep in mind that multiple types of contributions are possible, apart from contributing `code`:\n"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: upstream/CONTRIBUTING.md:10
+msgid "Sharing feedback from using 3scale API Management (e.g. in issues)"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: upstream/CONTRIBUTING.md:10
+msgid "Use cases, feature requests: Roadmap influence"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: upstream/CONTRIBUTING.md:10
+msgid "Community Support, bug fixes, forum posts: Help to be helped"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: upstream/CONTRIBUTING.md:10
+msgid "Documentation: Everyone needs good docs, Code is a moving target. If you find something wrong in the docs, fix it!!"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: upstream/CONTRIBUTING.md:10
+msgid "Test cases (including Perf, load, security, unit tests, interop, ...) / CI"
+msgstr ""
+
+#. type: Title ####
+#: upstream/CONTRIBUTING.md:11
+#, no-wrap
+msgid "**Did you find a bug?**"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/CONTRIBUTING.md:14
+msgid "**Do not open up a GitHub issue if the bug is a security vulnerability**. Please [contact us privately](https://access.redhat.com/security/team/contact) instead."
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/CONTRIBUTING.md:16
+msgid "**Ensure the bug was not already reported** by searching on GitHub under [Issues](https://github.com/3scale/porta/issues)."
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/CONTRIBUTING.md:18
+msgid "If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/3scale/porta/issues/new), filling-in all the necessary information in the Issue template."
+msgstr ""
+
+#. type: Title ####
+#: upstream/CONTRIBUTING.md:19
+#, no-wrap
+msgid "**Did you write a patch that fixes a bug?**"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/CONTRIBUTING.md:22
+msgid "Open a new GitHub pull request with the patch."
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/CONTRIBUTING.md:24
+msgid "Ensure the PR description clearly describes the problem and solution. **Do include the relevant issue number**."
+msgstr ""
+
+#. type: Title ####
+#: upstream/CONTRIBUTING.md:25
+#, no-wrap
+msgid "**Do you intend to add a new feature or change an existing one?**"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/CONTRIBUTING.md:28
+msgid "Suggest your change by **[opening](https://github.com/3scale/porta/issues/new) a GitHub issue first**, before writing any code."
+msgstr ""
+
+#. type: Plain text
+#: upstream/CONTRIBUTING.md:31
+#, no-wrap
+msgid ""
+"* Please think twice about starting to work on code before having collected positive feedback about the change. Maintainers may have already decided against accepting such contributions, so your work may not be incorporated. \n"
+"We know this can be extremely frustrating, so please *do contact us for discussion* first! \n"
+msgstr ""
+
+#. type: Title ####
+#: upstream/CONTRIBUTING.md:32
+#, no-wrap
+msgid "**Is there any other requirement to open a PR?**"
+msgstr ""
+
+#. type: Plain text
+#: upstream/CONTRIBUTING.md:36
+#, no-wrap
+msgid ""
+"Depending on the particular 3scale project you plan to contribute to, you might find that we enforce all commits to be signed with GPG before merging the PR to master.\n"
+"GPG is a form of encryption and it is used to verify the identity of the committer so other people can trust that the changes come from a trusted source.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/CONTRIBUTING.md:43
+#, no-wrap
+msgid ""
+"Here are some steps to follow, to set up GPG signed commits:\n"
+"  1. Check if you already have existing GPG keys in your local computer following [this guide](https://help.github.com/articles/checking-for-existing-gpg-keys/).\n"
+"  2. If you don't have any, generate a new GPG key following [this guide](https://help.github.com/articles/generating-a-new-gpg-key/).\n"
+"  3. Add the GPG key to your GitHub account following [this guide](https://help.github.com/articles/adding-a-new-gpg-key-to-your-github-account/).\n"
+"  4. Tell Git about your signing key following [this guide](https://help.github.com/articles/telling-git-about-your-signing-key/).\n"
+"  5. Sign your commits with the GPG key following [this guide](https://help.github.com/articles/signing-commits/).\n"
+msgstr ""
+
+#. type: Title ####
+#: upstream/CONTRIBUTING.md:44
+#, no-wrap
+msgid "**Do you have questions about the source code?**"
+msgstr ""
+
+#. type: Bullet: '* '
+#: upstream/CONTRIBUTING.md:47
+msgid "Ask any question by raising an issue. Maintainers could always use more help, so they'll be happy to assist you along, no matter how silly you might your question sounds."
+msgstr ""
+
+#. type: Plain text
+#: upstream/CONTRIBUTING.md:49
+#, no-wrap
+msgid "Thanks for reading this far!! \n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/CONTRIBUTING.md:51
+#, no-wrap
+msgid ""
+"With :heart:,\n"
+"The 3scale team\n"
+msgstr ""

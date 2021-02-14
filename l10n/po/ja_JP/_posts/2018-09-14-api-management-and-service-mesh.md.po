@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-02-14 16:10+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: upstream/_posts/2018-09-14-api-management-and-service-mesh.md:6
+#, no-wrap
+msgid ""
+"layout: post\n"
+"title:  \"API Management and Service Mesh\"\n"
+"date:   2018-09-14 16:31:33 +0200\n"
+"categories: istio mesh\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/_posts/2018-09-14-api-management-and-service-mesh.md:9
+#, no-wrap
+msgid ""
+"Why a Service Mesh is not a replacement of API Management\n"
+"As a disclaimer, I work at Red Hat, more specifically, at the 3scale Team (acquired 2 years ago) developing the 3scale API Management Solution.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/_posts/2018-09-14-api-management-and-service-mesh.md:11
+#, no-wrap
+msgid "Lately, a question is popping up more and more when talking with our customers: “Why do I need API Management if I use Istio?”\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/_posts/2018-09-14-api-management-and-service-mesh.md:13
+#, no-wrap
+msgid "To answer this question, first, we need to understand what is what, but if you want a spoiler: 3scale API Management and Istio are amazing together.\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/_posts/2018-09-14-api-management-and-service-mesh.md:15
+#, no-wrap
+msgid "I will try to describe what problems those two solutions aim to solve, focusing on 3scale API Management and Istio Service Mesh (those are the two I know better).\n"
+msgstr ""
+
+#. type: Title ##
+#: upstream/_posts/2018-09-14-api-management-and-service-mesh.md:16
+#, no-wrap
+msgid "What is an API Management solution?"
+msgstr ""
+
+#. type: Plain text
+#: upstream/_posts/2018-09-14-api-management-and-service-mesh.md:20
+#, no-wrap
+msgid ""
+"If we take a look at Wikipedia:\n"
+"> “API management is the process of creating and publishing web APIs, enforcing their usage policies, controlling access, nurturing the subscriber community, collecting and analyzing usage statistics, and reporting on performance.”\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/_posts/2018-09-14-api-management-and-service-mesh.md:23
+#, no-wrap
+msgid ""
+"This is a good definition. As a company that has created some kind of internal service, I now want to build a business around it by providing an API to external subscribers. Of course, I want to monetize it by offering several subscription plans with different usage limits, scopes, and be able to invoice my customers automatically.\n"
+"Additionally, external Developers should find my API easily, and sign up for a plan in a self-service way with just their credit card and all of this should be transparent for my API code…\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/_posts/2018-09-14-api-management-and-service-mesh.md:31
+#, no-wrap
+msgid ""
+"{% highlight ruby %}\n"
+"def print_hi(name)\n"
+"  puts \"Hi, #{name}\"\n"
+"end\n"
+"print_hi('Tom')\n"
+"#=> prints 'Hi, Tom' to STDOUT.\n"
+"{% endhighlight %}\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/_posts/2018-09-14-api-management-and-service-mesh.md:33
+#, no-wrap
+msgid "Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/_posts/2018-09-14-api-management-and-service-mesh.md:36
+#, no-wrap
+msgid ""
+"[jekyll-docs]: https://jekyllrb.com/docs/home\n"
+"[jekyll-gh]:   https://github.com/jekyll/jekyll\n"
+"[jekyll-talk]: https://talk.jekyllrb.com/\n"
+msgstr ""

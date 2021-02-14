@@ -1,0 +1,142 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-02-14 16:10+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: upstream/grasp.md:7
+#, no-wrap
+msgid ""
+"layout: page\n"
+"heading: <span class=\"active\" id=\"client\">Grasp</span> the inner workings\n"
+"title: Grasp\n"
+"permalink: /grasp\n"
+"order: 2\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/grasp.md:11
+#, no-wrap
+msgid "<article id=\"apicast\" class=\"chapter\">  \n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/grasp.md:36
+#, no-wrap
+msgid ""
+"  <section class=\"summary\">\n"
+"    <h1>\n"
+"      <i class=\"fab fa-github\"></i>\n"
+"      <a href=\"https://github.com/3scale/apicast\">3scale/apicast</a>\n"
+"    </h1>\n"
+"    <ul>\n"
+"      <li><a href=\"https://www.nginx.com/\">NGINX</a>-based API gateway</li>\n"
+"      <li><a href=\"https://www.lua.org/start.html\">Lua</a> <a href=\"https://github.com/3scale/apicast/blob/master/doc/policies.md#policies\">policies</a>\n"
+"      tell APIcast what to do in each of the nginx phases.\n"
+"      You can <a href=\"https://www.lua.org/start.html\">write your own policies</a>.</li>\n"
+"      <li>Ships with its own <a href=\"https://github.com/3scale/apicast/blob/master/doc/dns-resolver.md#dns-resolver\">DNS resolver</a> implemented in Lua</li>\n"
+"    </ul>\n"
+"  </section>\n"
+"  <section class=\"functional\">\n"
+"    <ol class=\"policy-chain\">\n"
+"      <li class=\"policy\" id=\"policy_chain\"><a href=\"https://github.com/3scale/apicast/blob/master/doc/policies.md#policy-chains\">policy chain</a></li>\n"
+"      <li class=\"policy\" id=\"policy1\"><a href=\"https://github.com/3scale/apicast/tree/master/gateway/src/apicast/policy/url_rewriting\">rewrite policy</a></li>\n"
+"      <li class=\"policy\" id=\"policy2\"><a href=\"https://github.com/3scale/apicast/blob/master/doc/policies.md#write-your-own-policy\">custom policy</a></li>\n"
+"      <li class=\"policy\" id=\"policy3\"><a href=\"https://github.com/3scale/apicast/tree/master/gateway/src/apicast/policy/apicast\">3scale policy</a></li>\n"
+"      <li class=\"policy\" id=\"policy4\">policy</li>\n"
+"      <li class=\"policy\" id=\"policy5\">policy</li>\n"
+"    </ol>\n"
+"  </section>\n"
+"</article>\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/grasp.md:47
+#, no-wrap
+msgid ""
+"<article id=\"apisonator\" class=\"chapter\">\n"
+"  <section class=\"summary\">\n"
+"    <h1>\n"
+"      <i class=\"fab fa-github\"></i>\n"
+"      <a href=\"https://github.com/3scale/apisonator\">3scale/apisonator</a>\n"
+"    </h1>\n"
+"    <ul>\n"
+"      <li><a href=\"https://github.com/3scale/apisonator#apisonator-listener\">Listener</a> accepts and enqueues requests to authorize and report them.</li>\n"
+"      <li><a href=\"https://github.com/3scale/apisonator#apisonator-worker\">Worker</a> performs background tasks off-loaded from the listener.</li>\n"
+"      <li><a href=\"https://github.com/3scale/apisonator#apisonator-failed-jobs-rescheduler\">Rescheduler</a> re-queues failed jobs.</li>\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/grasp.md:59
+#, no-wrap
+msgid ""
+"    </ul>\n"
+"  </section>\n"
+"  <section class=\"functional\">\n"
+"    <ol id=\"authrep\" class=\"policy-chain\">\n"
+"      <li class=\"policy\" id=\"authenticate\">authenticator</li>\n"
+"      <li class=\"policy\" id=\"authorize\">authorizer</li>\n"
+"      <li class=\"policy\" id=\"report\">reporter</li>\n"
+"      <li class=\"policy\" id=\"internal_api\">internal API</li>\n"
+"    </ol>\n"
+"  </section>\n"
+"</article>\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/grasp.md:63
+#, no-wrap
+msgid ""
+"<article class=\"chapter api\">\n"
+"  <h1 id=\"api\">API</h1>\n"
+"</article>\n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/grasp.md:85
+#, no-wrap
+msgid ""
+"<article id=\"apicenter\" class=\"chapter\">\n"
+"  <section class=\"summary\">\n"
+"    <h1>\n"
+"      <i class=\"fab fa-github\"></i>\n"
+"      <a href=\"https://github.com/3scale/porta\">3scale/porta</a>\n"
+"    </h1>\n"
+"    <ul>\n"
+"      <li>Rails app to manage API(s) & developers through GUI & API</li>\n"
+"      <li>Accounts, Applications, Messages, Plans, Billing, Limits, Rules, Policies.</li>\n"
+"      <li>Create and nurture a <a href=\"https://github.com/3scale/porta/tree/master/lib/developer_portal\">developer portal</a></li>\n"
+"    </ul>\n"
+"  </section>\n"
+"  <section class=\"functional\">\n"
+"    <ol id=\"features\" class=\"policy-chain\">\n"
+"      <li class=\"policy\" id=\"pisoni\">pisoni</li>\n"
+"      <li class=\"policy\" id=\"services\">services</li>\n"
+"      <li class=\"policy\" id=\"plans\">plans (rules & limits)</li>\n"
+"      <li class=\"policy\" id=\"apps\">apps (auth)</li>      \n"
+"      <li class=\"policy\" id=\"analytics\">analytics</li>   \n"
+"      <li class=\"policy\" id=\"portal\">developer portal</li>\n"
+"    </ol>\n"
+"  </section>  \n"
+msgstr ""
+
+#. type: Plain text
+#: upstream/grasp.md:87
+#, no-wrap
+msgid ""
+"</article>\n"
+"<script src=\"{{ \"/assets/grasp.js\" | relative_url }}\"></script>\n"
+msgstr ""
