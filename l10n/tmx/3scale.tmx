@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="3.3.2" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>APIcast</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>APIcast</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
