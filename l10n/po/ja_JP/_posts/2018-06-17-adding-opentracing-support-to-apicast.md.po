@@ -3,18 +3,18 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2021-02-14 16:10+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2021-02-14 16:55+0900\n"
+"Language: to\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.2\n"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:6
@@ -25,6 +25,10 @@ msgid ""
 "date:   2018-09-14 16:31:33 +0200\n"
 "categories: istio mesh\n"
 msgstr ""
+"layout: post\n"
+"title:  \"OpenTracingサポートをAPIcastに追加\"\n"
+"date:   2018-09-14 16:31:33 +0200\n"
+"categories: istio mesh\n"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:10
@@ -77,7 +81,7 @@ msgstr ""
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:33
 #, no-wrap
 msgid "APIcast"
-msgstr ""
+msgstr "APIcast"
 
 #. type: Plain text
 #: upstream/_posts/2018-06-17-adding-opentracing-support-to-apicast.md:35
