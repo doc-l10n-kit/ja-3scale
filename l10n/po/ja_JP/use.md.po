@@ -3,18 +3,18 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2021-02-14 16:10+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2021-02-14 17:04+0900\n"
+"Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.2\n"
 
 #. type: Plain text
 #: upstream/use.md:7
@@ -42,6 +42,16 @@ msgid ""
 "  </section>\n"
 "</article>\n"
 msgstr ""
+"<article class=\"chapter\">\n"
+"  <section id=\"use\" class=\"summary\">\n"
+"  <h1>今すぐ利用開始</h1>\n"
+"  <ul>\n"
+"    <li>ホスティング版のフリートライアルを<a href=\"https://www.3scale.net/signup/\">サインアップ</a></li>\n"
+"    <li>フリープラン</li>\n"
+"    <li><em>プロダクトを体験</em></li>\n"
+"  </ul>\n"
+"  </section>\n"
+"</article>\n"
 
 #. type: Plain text
 #: upstream/use.md:35
@@ -63,6 +73,21 @@ msgid ""
 "and get password from the terminal output (look for ADMIN_PASSWORD).</span><br/><span class=\"gp\">https://3scale-admin.$(minishift ip).nip.io/</span></code></li>\n"
 "    </ul>\n"
 msgstr ""
+"<article class=\"chapter paragraphed\">\n"
+"  <section id=\"install\" class=\"summary\">\n"
+"    <h1>ラップトップに一切をインストール</h1>\n"
+"    <em>前提条件: <a href=\"https://docs.okd.io/latest/minishift/getting-started/installing.html\">Minishift</a>.</em><br/>\n"
+"    <br/>\n"
+"    <ul>\n"
+"      <li><code class=\"highlight\"><span class=\"c\"># 1. Start Minishift with 6gb</span><br/>\n"
+"  <span class=\"gp\">minishift start --memory 6GB --cpus 2</span></code></li>\n"
+"      <li><code class=\"highlight\"><span class=\"c\"># 2. Create a new application using a minimal 3scale template</span><br/><span class=\"gp\">oc new-app \\\n"
+"   --param WILDCARD_DOMAIN=\"$(minishift ip).nip.io\" \\\n"
+"   --param AMP_RELEASE=2.4.0 \\\n"
+"   -f https://red.ht/2HdoRPB</span></code></li>\n"
+"   <li><code class=\"highlight\"><span class=\"c\"># 3. Sign in to 3scale with Username:admin\n"
+"and get password from the terminal output (look for ADMIN_PASSWORD).</span><br/><span class=\"gp\">https://3scale-admin.$(minishift ip).nip.io/</span></code></li>\n"
+"    </ul>\n"
 
 #. type: Plain text
 #: upstream/use.md:37
