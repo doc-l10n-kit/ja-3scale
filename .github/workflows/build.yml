@@ -1,0 +1,82 @@
+name: build
+
+on:
+  push:
+    branches:
+      - 'master'
+  schedule:
+    # everyday 11AM (UTC)
+    - cron: '* 9 * * *'
+  workflow_dispatch:
+    branches:
+      - 'master'
+  workflow_run:
+    workflows:
+      - 'sync-upstream'
+    branches:
+      - 'master'
+    types:
+      - completed
+
+jobs:
+  build-tmx:
+    name: Build tmx
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Cache bundle directory
+        uses: actions/cache@v1
+        with:
+          path: vendor/bundleb
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - name: Configure git
+        run: |
+          bin/configure-git
+      - name: Setup build env
+        run: |
+          bin/setup-build-env
+      - name: Update tmx
+        run: bin/update-tmx
+
+      - name: Push changes
+        run: bin/push-changes "Update tmx"
+
+
+  deploy-ja:
+    name: Deploy Japanese translation to surge.sh
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Cache bundle directory
+        uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - name: Setup build env
+        run: |
+          bin/setup-build-env
+      - name: Configure git
+        run: |
+          bin/configure-git
+
+      - name: Exec po4a-translate
+        run: bin/exec-po4a-translate
+
+      - name: Apply override files
+        run: bin/exec-override
+
+      - name: Exec jekyll
+        run: bin/exec-jekyll
+
+      - name: Deploy to surge.sh
+        run: |
+          bin/deploy
+        env:
+          SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
+          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
