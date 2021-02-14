@@ -14,7 +14,7 @@ permalink: /
       <tuv xml:lang="ja_JP">
         <seg>layout: page
 title: 3scale API Management
-heading: APIの&lt;a href="#share" id="nav_share"&gt;共有&lt;/a&gt;、&lt;a href="#secure" id="nav_secure"&gt;安全&lt;/a&gt;、&lt;a href="#control" id="nav_control"&gt;管理&lt;/a&gt;、&lt;a href="#analyze" id="nav_analyze"&gt;分析&lt;/a&gt;、そして &lt;a href="#monetize" id="nav_monetize"&gt;収益化&lt;/a&gt;&lt;span class="active"&gt;&lt;/span&gt;
+heading: APIの&lt;a href="#share" id="nav_share"&gt;共有&lt;/a&gt;、&lt;a href="#secure" id="nav_secure"&gt;保護&lt;/a&gt;、&lt;a href="#control" id="nav_control"&gt;管理&lt;/a&gt;、&lt;a href="#analyze" id="nav_analyze"&gt;分析&lt;/a&gt;、そして &lt;a href="#monetize" id="nav_monetize"&gt;収益化&lt;/a&gt;&lt;span class="active"&gt;&lt;/span&gt;
 permalink: /
 </seg>
       </tuv>
