@@ -3,18 +3,18 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2021-02-14 16:10+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2021-02-14 20:15+0900\n"
+"Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.2\n"
 
 #. type: Title #
 #: upstream/index.md:2
@@ -43,6 +43,10 @@ msgid ""
 "heading: <a href=\"#share\" id=\"nav_share\">Share</a>, <a href=\"#secure\" id=\"nav_secure\">secure</a>, <a href=\"#control\" id=\"nav_control\">control</a>, <a href=\"#analyze\" id=\"nav_analyze\">analyze</a>, and <a href=\"#monetize\" id=\"nav_monetize\">monetize</a> your APIs<span class=\"active\">.</span>\n"
 "permalink: /\n"
 msgstr ""
+"layout: page\n"
+"title: 3scale API Management\n"
+"heading: APIの<a href=\"#share\" id=\"nav_share\">共有</a>、<a href=\"#secure\" id=\"nav_secure\">安全</a>、<a href=\"#control\" id=\"nav_control\">管理</a>、<a href=\"#analyze\" id=\"nav_analyze\">分析</a>そして <a href=\"#monetize\" id=\"nav_monetize\">収益化</a><span class=\"active\"></span>\n"
+"permalink: /\n"
 
 #. type: Plain text
 #: upstream/index.md:11
@@ -70,6 +74,21 @@ msgid ""
 "  </section>\n"
 "</article>\n"
 msgstr ""
+"  <section class=\"summary\">\n"
+"    <h1>\n"
+"      <i class=\"fas fa-sitemap\"></i>\n"
+"      Developer Portal\n"
+"    </h1>\n"
+"    <p>APIを世界と<span class=\"conditional-highlight\">共有</span>、インタラクティブなドキュメントで開発者を教育し、サブスクリプション、キー、アプリを管理する為のプライベートエリアを開発者に提供します。</p>\n"
+"  </section>\n"
+"  <section class=\"functional focus\">\n"
+"    <ol class=\"feature-chain\">\n"
+"      <li class=\"feature\" id=\"\"><a href=\"{{ site.3scale_docs_url }}{{ site.3scale_product_version }}/html/developer_portal/authentication\">柔軟な認証</a></li>\n"
+"      <li class=\"feature\" id=\"\"><a href=\"{{ site.3scale_docs_url }}{{ site.3scale_product_version }}/html/developer_portal/change-built-in-pages\">カスタムHTML、JS、CSS</a></li>\n"
+"      <li class=\"feature\" id=\"\"><a href=\"{{ site.3scale_docs_url }}{{ site.3scale_product_version }}/html/developer_portal/custom-signup-fields\">カスタムサインアップフォーム、メールテンプレート</a></li>\n"
+"    </ol>\n"
+"  </section>\n"
+"</article>\n"
 
 #. type: Plain text
 #: upstream/index.md:28
