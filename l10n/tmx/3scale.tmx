@@ -5,6 +5,42 @@
   <body>
     <tu>
       <tuv xml:lang="en">
+        <seg>&lt;article class="chapter"&gt;
+  &lt;section id="use" class="summary"&gt;
+  &lt;h1&gt;Use Now&lt;/h1&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href="https://www.3scale.net/signup/"&gt;Sign up&lt;/a&gt; for a free trial of our hosted version.&lt;/li&gt;
+    &lt;li&gt;Free trial plan.&lt;/li&gt;
+    &lt;li&gt;Get a &lt;em&gt;feel for the product.&lt;/em&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;/section&gt;
+&lt;/article&gt;
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>&lt;article class="chapter"&gt;
+  &lt;section id="use" class="summary"&gt;
+  &lt;h1&gt;今すぐ利用開始&lt;/h1&gt;
+  &lt;ul&gt;
+    &lt;li&gt;ホスティング版のフリートライアルを&lt;a href="https://www.3scale.net/signup/"&gt;サインアップ&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;フリープラン&lt;/li&gt;
+    &lt;li&gt;&lt;em&gt;プロダクトを体験&lt;/em&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;/section&gt;
+&lt;/article&gt;
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>APIcast</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>APIcast</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>layout: page
 title: Contribute
 heading: &lt;span id="nav_contribute" class="active"&gt;Contribute&lt;/span&gt;&lt;br /&gt;to grow
@@ -213,42 +249,6 @@ permalink: /
   &lt;section class="functional"&gt;
     &lt;ol class="feature-chain"&gt;  
 </seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>&lt;article class="chapter"&gt;
-  &lt;section id="use" class="summary"&gt;
-  &lt;h1&gt;Use Now&lt;/h1&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href="https://www.3scale.net/signup/"&gt;Sign up&lt;/a&gt; for a free trial of our hosted version.&lt;/li&gt;
-    &lt;li&gt;Free trial plan.&lt;/li&gt;
-    &lt;li&gt;Get a &lt;em&gt;feel for the product.&lt;/em&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;/section&gt;
-&lt;/article&gt;
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>&lt;article class="chapter"&gt;
-  &lt;section id="use" class="summary"&gt;
-  &lt;h1&gt;今すぐ利用開始&lt;/h1&gt;
-  &lt;ul&gt;
-    &lt;li&gt;ホスティング版のフリートライアルを&lt;a href="https://www.3scale.net/signup/"&gt;サインアップ&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;フリープラン&lt;/li&gt;
-    &lt;li&gt;&lt;em&gt;プロダクトを体験&lt;/em&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;/section&gt;
-&lt;/article&gt;
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>APIcast</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>APIcast</seg>
       </tuv>
     </tu>
   </body>
