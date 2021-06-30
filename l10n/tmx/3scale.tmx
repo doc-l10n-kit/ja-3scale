@@ -217,6 +217,14 @@ permalink: /
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>APIcast</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>APIcast</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>&lt;article class="chapter"&gt;
   &lt;section id="use" class="summary"&gt;
   &lt;h1&gt;Use Now&lt;/h1&gt;
@@ -241,14 +249,6 @@ permalink: /
   &lt;/section&gt;
 &lt;/article&gt;
 </seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>APIcast</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>APIcast</seg>
       </tuv>
     </tu>
   </body>
