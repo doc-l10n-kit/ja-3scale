@@ -5,34 +5,6 @@
   <body>
     <tu>
       <tuv xml:lang="en">
-        <seg>&lt;article class="chapter"&gt;
-  &lt;section id="use" class="summary"&gt;
-  &lt;h1&gt;Use Now&lt;/h1&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href="https://www.3scale.net/signup/"&gt;Sign up&lt;/a&gt; for a free trial of our hosted version.&lt;/li&gt;
-    &lt;li&gt;Free trial plan.&lt;/li&gt;
-    &lt;li&gt;Get a &lt;em&gt;feel for the product.&lt;/em&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;/section&gt;
-&lt;/article&gt;
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>&lt;article class="chapter"&gt;
-  &lt;section id="use" class="summary"&gt;
-  &lt;h1&gt;今すぐ利用開始&lt;/h1&gt;
-  &lt;ul&gt;
-    &lt;li&gt;ホスティング版のフリートライアルを&lt;a href="https://www.3scale.net/signup/"&gt;サインアップ&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;フリープラン&lt;/li&gt;
-    &lt;li&gt;&lt;em&gt;プロダクトを体験&lt;/em&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;/section&gt;
-&lt;/article&gt;
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>layout: page
 title: 3scale API Management
 heading: &lt;a href="#share" id="nav_share"&gt;Share&lt;/a&gt;, &lt;a href="#secure" id="nav_secure"&gt;secure&lt;/a&gt;, &lt;a href="#control" id="nav_control"&gt;control&lt;/a&gt;, &lt;a href="#analyze" id="nav_analyze"&gt;analyze&lt;/a&gt;, and &lt;a href="#monetize" id="nav_monetize"&gt;monetize&lt;/a&gt; your APIs&lt;span class="active"&gt;.&lt;/span&gt;
@@ -240,6 +212,34 @@ title: 貢献
 heading: 成長に&lt;br /&gt;&lt;span id="nav_contribute" class="active"&gt;貢献&lt;/span&gt;
 permalink: /contribute
 order: 3
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;article class="chapter"&gt;
+  &lt;section id="use" class="summary"&gt;
+  &lt;h1&gt;Use Now&lt;/h1&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href="https://www.3scale.net/signup/"&gt;Sign up&lt;/a&gt; for a free trial of our hosted version.&lt;/li&gt;
+    &lt;li&gt;Free trial plan.&lt;/li&gt;
+    &lt;li&gt;Get a &lt;em&gt;feel for the product.&lt;/em&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;/section&gt;
+&lt;/article&gt;
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>&lt;article class="chapter"&gt;
+  &lt;section id="use" class="summary"&gt;
+  &lt;h1&gt;今すぐ利用開始&lt;/h1&gt;
+  &lt;ul&gt;
+    &lt;li&gt;ホスティング版のフリートライアルを&lt;a href="https://www.3scale.net/signup/"&gt;サインアップ&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;フリープラン&lt;/li&gt;
+    &lt;li&gt;&lt;em&gt;プロダクトを体験&lt;/em&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;/section&gt;
+&lt;/article&gt;
 </seg>
       </tuv>
     </tu>
