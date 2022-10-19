@@ -199,20 +199,10 @@ permalink: /
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>layout: page
-title: Contribute
-heading: &lt;span id="nav_contribute" class="active"&gt;Contribute&lt;/span&gt;&lt;br /&gt;to grow
-permalink: /contribute
-order: 3
-</seg>
+        <seg>APIcast</seg>
       </tuv>
       <tuv xml:lang="ja_JP">
-        <seg>layout: page
-title: 貢献
-heading: 成長に&lt;br /&gt;&lt;span id="nav_contribute" class="active"&gt;貢献&lt;/span&gt;
-permalink: /contribute
-order: 3
-</seg>
+        <seg>APIcast</seg>
       </tuv>
     </tu>
     <tu>
@@ -245,10 +235,20 @@ order: 3
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>APIcast</seg>
+        <seg>layout: page
+title: Contribute
+heading: &lt;span id="nav_contribute" class="active"&gt;Contribute&lt;/span&gt;&lt;br /&gt;to grow
+permalink: /contribute
+order: 3
+</seg>
       </tuv>
       <tuv xml:lang="ja_JP">
-        <seg>APIcast</seg>
+        <seg>layout: page
+title: 貢献
+heading: 成長に&lt;br /&gt;&lt;span id="nav_contribute" class="active"&gt;貢献&lt;/span&gt;
+permalink: /contribute
+order: 3
+</seg>
       </tuv>
     </tu>
   </body>
