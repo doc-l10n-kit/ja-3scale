@@ -23,6 +23,14 @@ order: 3
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>APIcast</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>APIcast</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>layout: page
 title: 3scale API Management
 heading: &lt;a href="#share" id="nav_share"&gt;Share&lt;/a&gt;, &lt;a href="#secure" id="nav_secure"&gt;secure&lt;/a&gt;, &lt;a href="#control" id="nav_control"&gt;control&lt;/a&gt;, &lt;a href="#analyze" id="nav_analyze"&gt;analyze&lt;/a&gt;, and &lt;a href="#monetize" id="nav_monetize"&gt;monetize&lt;/a&gt; your APIs&lt;span class="active"&gt;.&lt;/span&gt;
@@ -213,14 +221,6 @@ permalink: /
   &lt;section class="functional"&gt;
     &lt;ol class="feature-chain"&gt;  
 </seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>APIcast</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>APIcast</seg>
       </tuv>
     </tu>
     <tu>
