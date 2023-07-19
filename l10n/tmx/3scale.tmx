@@ -5,24 +5,6 @@
   <body>
     <tu>
       <tuv xml:lang="en">
-        <seg>layout: page
-title: Contribute
-heading: &lt;span id="nav_contribute" class="active"&gt;Contribute&lt;/span&gt;&lt;br /&gt;to grow
-permalink: /contribute
-order: 3
-</seg>
-      </tuv>
-      <tuv xml:lang="ja_JP">
-        <seg>layout: page
-title: 貢献
-heading: 成長に&lt;br /&gt;&lt;span id="nav_contribute" class="active"&gt;貢献&lt;/span&gt;
-permalink: /contribute
-order: 3
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>&lt;article class="chapter"&gt;
   &lt;section id="use" class="summary"&gt;
   &lt;h1&gt;Use Now&lt;/h1&gt;
@@ -46,6 +28,24 @@ order: 3
   &lt;/ul&gt;
   &lt;/section&gt;
 &lt;/article&gt;
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>layout: page
+title: Contribute
+heading: &lt;span id="nav_contribute" class="active"&gt;Contribute&lt;/span&gt;&lt;br /&gt;to grow
+permalink: /contribute
+order: 3
+</seg>
+      </tuv>
+      <tuv xml:lang="ja_JP">
+        <seg>layout: page
+title: 貢献
+heading: 成長に&lt;br /&gt;&lt;span id="nav_contribute" class="active"&gt;貢献&lt;/span&gt;
+permalink: /contribute
+order: 3
 </seg>
       </tuv>
     </tu>
