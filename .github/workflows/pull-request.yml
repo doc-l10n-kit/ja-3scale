@@ -5,7 +5,7 @@ on: pull_request_target
 jobs:
   deploy-ja:
     name: Deploy Japanese translation to surge.sh
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
       # To avoid GitHub Secrets compromise, checkouts merged commit to 'merged' dir and copy its l10n dir to base branch code base
       - name: Checkout base branch
